@@ -1,0 +1,200 @@
+{
+  "service": {
+    "time": "Sundays · 9:00 AM",
+    "location": "Beach Church at the Boardwalk Pavilion",
+    "locationShort": "Boardwalk Pavilion, Ocean Grove, NJ",
+    "offSeasonLocation": "80 Embury Avenue, Ocean Grove, NJ",
+    "onlineNote": "Anytime — Worship online from anywhere"
+  },
+
+  "thisWeek": {
+    "sermonTitle": "Deep Water Doesn't Scare Him",
+    "series": "Summer of Stewardship",
+    "seriesWeek": "Wk 3",
+    "youtubeEmbedId": "",
+    "clips": [
+      {
+        "title": "The tide always comes back",
+        "duration": "0:60",
+        "label": "60-sec clip · share-ready",
+        "url": ""
+      },
+      {
+        "title": "What Zacchaeus knew about being seen",
+        "duration": "0:45",
+        "label": "45-sec clip · share-ready",
+        "url": ""
+      }
+    ],
+    "youtubeChannelUrl": ""
+  },
+
+  "announcements": [],
+
+  "pathways": {
+    "beginning": {
+      "stage": "Beginning",
+      "title": "Curious about Jesus",
+      "body": "Questions welcome — doubts too. Alpha is a relaxed dinner-table conversation about life and faith. No background required, nothing assumed.",
+      "linkText": "Explore Alpha →",
+      "linkUrl": "/start-here.html"
+    },
+    "returning": {
+      "stage": "Returning",
+      "title": "Coming back to faith",
+      "body": "Been away a while? You're not behind, and nobody's keeping score. Beach Church is the easiest way back in — sand, sea air, real people.",
+      "linkText": "Plan a visit →",
+      "linkUrl": "/start-here.html"
+    },
+    "deepening": {
+      "stage": "Deepening",
+      "title": "Ready to go deeper",
+      "body": "Grow with people who get it — small groups, serving teams, and rhythms of prayer rooted in this place between the ocean and the town.",
+      "linkText": "Find your people →",
+      "linkUrl": "/next-steps.html"
+    }
+  },
+
+  "connect": {
+    "textKeyword": "HELLO",
+    "textNumber": "(732) 555-0123",
+    "devotionalTitle": "Five Mornings by the Sea",
+    "devotionalDescription": "Short daily readings for the walk, the commute, or the coffee. Yours when you connect."
+  },
+
+  "invite": {
+    "smsBody": "Hey — come to Beach Church with me Sunday? 9 AM at the Ocean Grove boardwalk pavilion. I'll save you a seat. oceangrove.church"
+  },
+
+  "startHere": {
+    "expect": [
+      {
+        "icon": "🕘",
+        "title": "When & where",
+        "body": "Sundays at 9:00 AM — Beach Church at the Boardwalk Pavilion in Ocean Grove. Off-season, we gather at 80 Embury Avenue."
+      },
+      {
+        "icon": "👕",
+        "title": "Come as you are",
+        "body": "Flip-flops, shorts, sand on your feet — we're a beach church. Dress for comfort, not a dress code."
+      },
+      {
+        "icon": "🎵",
+        "title": "What worship's like",
+        "body": "A blend of hymns and modern songs, a message rooted in Scripture, communion open to everyone. About an hour, start to finish."
+      },
+      {
+        "icon": "👶",
+        "title": "Kids & families",
+        "body": "Kids are welcome in worship — always. We love the sound of children in church. Quiet activities and coloring pages available."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Do I have to believe anything to come?",
+        "answer": "No. Come curious, come skeptical, come searching. You're welcome in the room while you're figuring it out."
+      },
+      {
+        "question": "What if I haven't been to church in years?",
+        "answer": "Then you're in good company — a lot of us started (or re-started) right where you are. Nobody's keeping score."
+      },
+      {
+        "question": "Is there coffee?",
+        "answer": "Yes. And it's good. Fellowship time before and after every service."
+      },
+      {
+        "question": "Where do I park?",
+        "answer": "Street parking fills early on summer Sundays — arrive by 8:40 for the easiest spots, or better yet, bike or walk the boardwalk like half the congregation does."
+      }
+    ]
+  },
+
+  "nextSteps": {
+    "weekly": [
+      {
+        "when": "Every Sunday",
+        "title": "Worship",
+        "body": "Worship reminds us it's not about me — it connects us to God and to each other, and sends us into the world together with Jesus at the center.",
+        "linkText": "Join in →",
+        "linkUrl": "#"
+      },
+      {
+        "when": "Weekly",
+        "title": "Small Groups",
+        "body": "Faith was never meant to be solo. Share life, scripture, and honest conversation with a handful of people who'll know your name.",
+        "linkText": "Find a group →",
+        "linkUrl": "#"
+      },
+      {
+        "when": "Daily · start anytime",
+        "title": "Read the Bible in a Year",
+        "body": "A simple plan that surveys the whole of Scripture and builds the habit of daily reading. Start January 1 — or today.",
+        "linkText": "Get the reading plan →",
+        "linkUrl": "#"
+      }
+    ],
+    "seasonal": [
+      {
+        "when": "Fall · 11 weeks",
+        "title": "Alpha",
+        "body": "A place to ask life's biggest questions — Does God exist? Who am I? What's my purpose? Each session explores a question of faith over food and honest conversation.",
+        "linkText": "More on Alpha →",
+        "linkUrl": "#"
+      },
+      {
+        "when": "Spring",
+        "title": "This We Believe",
+        "body": "The core of Wesleyan faith and practice — studying the Bible as the testimony of God's never-ending grace, and living every day as a child of God.",
+        "linkText": "Learn more →",
+        "linkUrl": "#"
+      },
+      {
+        "when": "Alternating springs",
+        "title": "Financial Peace University",
+        "body": "Common-sense money principles with small-group accountability. Millions have used FPU to change their financial behavior for good.",
+        "linkText": "Learn more →",
+        "linkUrl": "#"
+      }
+    ],
+    "milestones": [
+      {
+        "when": "When you're ready",
+        "title": "Baptism",
+        "body": "An outward sign of an inward change — a holy moment marking that you've become a new creature in Christ.",
+        "linkText": "Learn more →",
+        "linkUrl": "#"
+      },
+      {
+        "when": "When you're ready",
+        "title": "Membership",
+        "body": "Like the Acts 2 church — devoted to teaching, fellowship, breaking bread, and prayer. More than joining: growing in love, truth, and accountability as one body.",
+        "linkText": "Ready? →",
+        "linkUrl": "#"
+      },
+      {
+        "when": "Ongoing",
+        "title": "Serve",
+        "body": "Growth that stays inside never matures. Find a team — from Helping Hands to missions — and let your faith do something.",
+        "linkText": "Volunteer →",
+        "linkUrl": "#"
+      }
+    ]
+  },
+
+  "contact": {
+    "phone": "732-775-1125",
+    "email": "pastor@oceangrove.church",
+    "address": "80 Embury Avenue, Ocean Grove, NJ 07756",
+    "directionsUrl": "https://maps.google.com/?q=St+Pauls+Ocean+Grove+Church+NJ"
+  },
+
+  "social": {
+    "instagram": "",
+    "facebook": "",
+    "youtube": ""
+  },
+
+  "giving": {
+    "url": ""
+  }
+}

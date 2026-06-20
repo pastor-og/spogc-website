@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SPOGC Interior Pages Mockup — Start Here & Next Steps</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0E2235; --ink-soft:#1B3A52; --foam:#F7F4ED; --sand:#EDE6D8;
+    --tide:#2E7E78; --tide-light:#7FB8B2; --dawn:#E0A458; --drift:#7C7468;
+    --radius:18px; --maxw:1120px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:'Karla',sans-serif;background:var(--foam);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+  a{color:inherit}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+  .eyebrow{font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;font-weight:700;color:var(--tide)}
+  .display{font-family:'Fraunces',serif;line-height:1.08;letter-spacing:-.01em}
+  .btn{display:inline-flex;align-items:center;gap:.5em;font-weight:700;font-size:1rem;padding:.95em 1.7em;border-radius:999px;text-decoration:none;transition:transform .15s ease;border:0;cursor:pointer}
+  .btn:hover{transform:translateY(-2px)}
+  .btn:focus-visible{outline:3px solid var(--dawn);outline-offset:3px}
+  .btn-dawn{background:var(--dawn);color:var(--ink)}
+  .btn-tide{background:var(--tide);color:var(--foam)}
+
+  /* mockup switcher bar */
+  .switchbar{background:var(--dawn);color:var(--ink);font-size:.85rem;font-weight:700;padding:10px 24px;display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+  .switchbar button{font:inherit;border:0;border-radius:999px;padding:.4em 1.1em;cursor:pointer;background:rgba(14,34,53,.12);color:var(--ink)}
+  .switchbar button.active{background:var(--ink);color:var(--foam)}
+
+  nav{position:sticky;top:0;z-index:50;background:rgba(14,34,53,.9);backdrop-filter:blur(10px);color:var(--foam)}
+  .nav-inner{max-width:var(--maxw);margin:0 auto;padding:14px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+  .logo{font-family:'Fraunces',serif;font-weight:600;font-size:1.15rem;text-decoration:none}
+  .logo span{color:var(--dawn)}
+  .nav-links{display:flex;gap:26px;list-style:none}
+  .nav-links a{text-decoration:none;font-weight:500;font-size:.95rem;opacity:.9}
+  .nav-links a:hover{color:var(--dawn)}
+  .nav-cta{background:var(--dawn);color:var(--ink);padding:.55em 1.2em;border-radius:999px;font-weight:700;text-decoration:none;font-size:.92rem;white-space:nowrap}
+  @media(max-width:760px){.nav-links{display:none}}
+
+  .page{display:none}
+  .page.active{display:block}
+
+  /* interior hero — shorter than homepage */
+  .ihero{color:var(--foam);position:relative;
+    background:radial-gradient(110% 90% at 85% 115%, rgba(224,164,88,.28), transparent 55%),
+    linear-gradient(176deg,#08141F 0%, #0E2235 45%, #1B4B66 100%)}
+  .ihero-inner{max-width:var(--maxw);margin:0 auto;padding:84px 24px 96px}
+  .ihero h1{font-size:clamp(2.3rem,5.5vw,3.8rem);font-weight:500;margin:.4em 0 .35em;max-width:16ch}
+  .ihero h1 em{font-style:italic;color:var(--dawn)}
+  .ihero p{font-size:clamp(1.02rem,2vw,1.2rem);max-width:46ch;opacity:.92}
+  .ihero .eyebrow{color:var(--tide-light)}
+  .photo-note{position:absolute;top:18px;right:18px;background:rgba(8,20,31,.55);border:1px dashed rgba(247,244,237,.4);border-radius:12px;padding:9px 13px;font-size:.74rem;max-width:230px;line-height:1.4;opacity:.85;z-index:3}
+  .tideline{display:block;width:100%;height:60px;margin-top:-1px}
+
+  section{padding:76px 0}
+  .section-head{max-width:640px;margin-bottom:42px}
+  .section-head h2{font-size:clamp(1.8rem,3.6vw,2.5rem);font-weight:500;margin:.35em 0}
+  .section-head p{color:var(--drift);font-size:1.05rem}
+
+  /* expect grid (Start Here) */
+  .expect{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+  @media(max-width:980px){.expect{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:560px){.expect{grid-template-columns:1fr}}
+  .fact{background:#fff;border:1px solid var(--sand);border-radius:var(--radius);padding:26px 22px}
+  .fact .ic{font-size:1.5rem;margin-bottom:10px}
+  .fact h3{font-family:'Fraunces',serif;font-weight:500;font-size:1.2rem;margin-bottom:6px}
+  .fact p{font-size:.94rem;color:var(--ink-soft)}
+
+  /* FAQ */
+  .faq{max-width:760px}
+  details{background:#fff;border:1px solid var(--sand);border-radius:14px;margin-bottom:12px;padding:0}
+  summary{cursor:pointer;font-weight:700;font-size:1.05rem;padding:18px 22px;list-style:none;display:flex;justify-content:space-between;align-items:center}
+  summary::after{content:"+";font-family:'Fraunces',serif;font-size:1.4rem;color:var(--tide)}
+  details[open] summary::after{content:"–"}
+  details p{padding:0 22px 20px;color:var(--ink-soft);font-size:.98rem}
+
+  /* form panel */
+  .gather{background:var(--ink);color:var(--foam)}
+  .gather-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:44px;align-items:center}
+  @media(max-width:860px){.gather-grid{grid-template-columns:1fr}}
+  .gather .section-head{margin-bottom:0}
+  .gather .section-head p{color:rgba(247,244,237,.78)}
+  .gather .eyebrow{color:var(--tide-light)}
+  .card{background:rgba(247,244,237,.06);border:1px solid rgba(247,244,237,.16);border-radius:var(--radius);padding:32px}
+  .card h3{font-family:'Fraunces',serif;font-size:1.45rem;font-weight:500;margin-bottom:14px}
+  .field{margin-bottom:15px}
+  .field label{display:block;font-size:.8rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;margin-bottom:6px;opacity:.8}
+  .field input{width:100%;padding:.85em 1em;border-radius:12px;border:1px solid rgba(247,244,237,.25);background:rgba(8,20,31,.5);color:var(--foam);font-family:inherit;font-size:1rem}
+  .field input:focus{outline:2px solid var(--dawn)}
+  .fine{font-size:.78rem;opacity:.6;margin-top:12px}
+
+  /* Next Steps rhythm groups */
+  .rhythm{margin-bottom:56px}
+  .rhythm-label{display:flex;align-items:center;gap:14px;margin-bottom:22px}
+  .rhythm-label .wave{height:5px;width:54px;border-radius:99px;background:var(--tide-light)}
+  .rhythm-label h3{font-family:'Fraunces',serif;font-weight:500;font-size:1.5rem}
+  .rhythm-label span{font-size:.85rem;color:var(--drift)}
+  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  @media(max-width:980px){.steps{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:620px){.steps{grid-template-columns:1fr}}
+  .step{background:#fff;border:1px solid var(--sand);border-radius:var(--radius);padding:26px 24px;display:flex;flex-direction:column;gap:8px;text-decoration:none;transition:transform .16s ease, box-shadow .16s ease}
+  .step:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(14,34,53,.09)}
+  .step .when{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--drift)}
+  .step h4{font-family:'Fraunces',serif;font-weight:500;font-size:1.3rem}
+  .step p{font-size:.93rem;color:var(--ink-soft);flex:1}
+  .step .go{font-weight:700;color:var(--tide)}
+  .step:hover .go{color:var(--dawn)}
+
+  footer{background:var(--ink);color:var(--foam);padding:56px 0 36px}
+  .foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:36px}
+  @media(max-width:760px){.foot-grid{grid-template-columns:1fr}}
+  footer h4{font-family:'Fraunces',serif;font-weight:500;font-size:1.15rem;margin-bottom:12px;color:var(--dawn)}
+  footer ul{list-style:none}
+  footer li{margin-bottom:7px;font-size:.93rem;opacity:.85}
+  footer a{text-decoration:none}
+  footer a:hover{color:var(--dawn)}
+  .foot-bottom{border-top:1px solid rgba(247,244,237,.14);margin-top:42px;padding-top:20px;font-size:.8rem;opacity:.6;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+</style>
+</head>
+<body>
+
+<div class="switchbar">
+  MOCKUP PREVIEW — switch page:
+  <button class="active" onclick="showPage('starthere',this)">Start Here (/im-new)</button>
+  <button onclick="showPage('nextsteps',this)">Next Steps (/next-steps)</button>
+</div>
+
+<nav>
+  <div class="nav-inner">
+    <a class="logo" href="#">St. Paul's <span>Ocean Grove</span></a>
+    <ul class="nav-links">
+      <li><a href="#" onclick="return false;">Start Here</a></li>
+      <li><a href="#" onclick="return false;">Watch</a></li>
+      <li><a href="#" onclick="return false;">Connect</a></li>
+      <li><a href="#" onclick="return false;">Give</a></li>
+    </ul>
+    <a class="nav-cta" href="#">Plan a Visit</a>
+  </div>
+</nav>
+
+<!-- ════════════ PAGE: START HERE ════════════ -->
+<div class="page active" id="starthere">
+  <header class="ihero">
+    <div class="photo-note">PHOTO ZONE — wide shot of the pavilion mid-service: people arriving, coffee, ocean behind. Warm, candid.</div>
+    <div class="ihero-inner">
+      <div class="eyebrow">I'm New · Start Here</div>
+      <h1 class="display">Your first Sunday, <em>sorted.</em></h1>
+      <p>Whether it's your first time in any church or your first time back in years — here's everything you'd want to know before you come. Spoiler: you can wear flip-flops.</p>
+    </div>
+  </header>
+  <svg class="tideline" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,32 C260,64 520,6 760,30 C1000,54 1240,10 1440,36 L1440,0 L0,0 Z" fill="#0E2235"/>
+  </svg>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">What to expect</div>
+        <h2 class="display">The basics, no surprises</h2>
+      </div>
+      <div class="expect">
+        <div class="fact"><div class="ic">🌊</div><h3>When & where</h3><p>Sundays at 9:00 AM — Beach Church at the Boardwalk Pavilion in Ocean Grove. Off-season, we gather at 80 Embury Avenue.</p></div>
+        <div class="fact"><div class="ic">🩴</div><h3>What to wear</h3><p>Whatever you'd wear to the beach or to brunch. Sandy feet are a feature, not a problem.</p></div>
+        <div class="fact"><div class="ic">⏱️</div><h3>How long</h3><p>About an hour — music, a message that connects to real life, and zero pressure to do anything but be there.</p></div>
+        <div class="fact"><div class="ic">🧒</div><h3>Kids</h3><p>Kids are fully welcome in worship, and our Anchored ministries have safe, fun spaces for every age.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Honest answers</div>
+        <h2 class="display">The questions people actually ask</h2>
+      </div>
+      <div class="faq">
+        <details><summary>I haven't been to church in years. Will that be weird?</summary><p>Not even a little. Nobody's keeping score, and nobody will put you on the spot. A lot of us came back after a long time away — that's kind of our thing.</p></details>
+        <details><summary>Do I have to give money or sign anything?</summary><p>No. The offering is for our church family — guests are exactly that: guests. Come, breathe the sea air, and let it be a gift to you.</p></details>
+        <details><summary>I have doubts and questions about faith. Is that okay?</summary><p>It's more than okay — questions are how faith grows. Bring them. And when you're ready, our Next Steps page has paths built for exactly where you are.</p></details>
+        <details><summary>Where do I park?</summary><p>Street parking fills early on summer Sundays — arrive by 8:40 for the easiest spots, or better yet, bike or walk the boardwalk like half the congregation does.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="gather">
+    <div class="wrap gather-grid">
+      <div class="section-head">
+        <div class="eyebrow">Plan a visit</div>
+        <h2 class="display">Tell us you're coming. We'll look for you.</h2>
+        <p>Drop your name and we'll send one short text or email before Sunday — where to park, what's happening, and who to look for when you arrive. That's it.</p>
+      </div>
+      <div class="card">
+        <h3>Save my seat</h3>
+        <div class="field"><label for="sn">First name</label><input id="sn" type="text" placeholder="Sam"></div>
+        <div class="field"><label for="se">Email or phone</label><input id="se" type="text" placeholder="you@example.com"></div>
+        <button class="btn btn-dawn" style="width:100%;justify-content:center">I'm planning to come</button>
+        <p class="fine">One message before Sunday. No spam, no follow-up pressure.</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ════════════ PAGE: NEXT STEPS ════════════ -->
+<div class="page" id="nextsteps">
+  <header class="ihero">
+    <div class="photo-note">PHOTO ZONE — small group around a table, or baptism at the shore. Real moments of growth.</div>
+    <div class="ihero-inner">
+      <div class="eyebrow">Next Steps</div>
+      <h1 class="display">Grow deep <em>with Jesus.</em></h1>
+      <p>Faith grows in rhythms — some weekly, some seasonal, some once-in-a-lifetime. Every step here is open to you, wherever you're starting from.</p>
+    </div>
+  </header>
+  <svg class="tideline" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,32 C260,64 520,6 760,30 C1000,54 1240,10 1440,36 L1440,0 L0,0 Z" fill="#0E2235"/>
+  </svg>
+
+  <section>
+    <div class="wrap">
+
+      <div class="rhythm">
+        <div class="rhythm-label"><div class="wave"></div><h3>Weekly rhythms</h3><span>the heartbeat</span></div>
+        <div class="steps">
+          <a class="step" href="#"><div class="when">Every Sunday</div><h4>Worship</h4><p>Worship reminds us it's not about me — it connects us to God and to each other, and sends us into the world together with Jesus at the center.</p><span class="go">Join in →</span></a>
+          <a class="step" href="#"><div class="when">Weekly</div><h4>Small Groups</h4><p>Faith was never meant to be solo. Share life, scripture, and honest conversation with a handful of people who'll know your name.</p><span class="go">Find a group →</span></a>
+          <a class="step" href="#"><div class="when">Daily · start anytime</div><h4>Read the Bible in a Year</h4><p>A simple plan that surveys the whole of Scripture and builds the habit of daily reading. Start January 1 — or today.</p><span class="go">Get the reading plan →</span></a>
+        </div>
+      </div>
+
+      <div class="rhythm">
+        <div class="rhythm-label"><div class="wave" style="background:var(--dawn)"></div><h3>Seasonal courses</h3><span>go deeper together</span></div>
+        <div class="steps">
+          <a class="step" href="#"><div class="when">Fall · 11 weeks</div><h4>Alpha</h4><p>A place to ask life's biggest questions — Does God exist? Who am I? What's my purpose? Each session explores a question of faith over food and honest conversation.</p><span class="go">More on Alpha →</span></a>
+          <a class="step" href="#"><div class="when">Spring</div><h4>This We Believe</h4><p>The core of Wesleyan faith and practice — studying the Bible as the testimony of God's never-ending grace, and living every day as a child of God.</p><span class="go">Learn more →</span></a>
+          <a class="step" href="#"><div class="when">Alternating springs</div><h4>Financial Peace University</h4><p>Common-sense money principles with small-group accountability. Millions have used FPU to change their financial behavior for good.</p><span class="go">Learn more →</span></a>
+        </div>
+      </div>
+
+      <div class="rhythm">
+        <div class="rhythm-label"><div class="wave" style="background:var(--tide)"></div><h3>Milestones</h3><span>marks of the journey</span></div>
+        <div class="steps">
+          <a class="step" href="#"><div class="when">When you're ready</div><h4>Baptism</h4><p>An outward sign of an inward change — a holy moment marking that you've become a new creature in Christ.</p><span class="go">Learn more →</span></a>
+          <a class="step" href="#"><div class="when">When you're ready</div><h4>Membership</h4><p>Like the Acts 2 church — devoted to teaching, fellowship, breaking bread, and prayer. More than joining: growing in love, truth, and accountability as one body.</p><span class="go">Ready? →</span></a>
+          <a class="step" href="#"><div class="when">Ongoing</div><h4>Serve</h4><p>Growth that stays inside never matures. Find a team — from Helping Hands to missions — and let your faith do something.</p><span class="go">Volunteer →</span></a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="gather" style="padding:64px 0">
+    <div class="wrap gather-grid">
+      <div class="section-head">
+        <div class="eyebrow">Not sure where to start?</div>
+        <h2 class="display">Tell us where you are. We'll walk with you.</h2>
+        <p>No algorithm, no quiz — a real person will read this and point you to a good first step.</p>
+      </div>
+      <div class="card">
+        <h3>Help me find my next step</h3>
+        <div class="field"><label for="nn">First name</label><input id="nn" type="text" placeholder="Sam"></div>
+        <div class="field"><label for="ne">Email or phone</label><input id="ne" type="text" placeholder="you@example.com"></div>
+        <button class="btn btn-dawn" style="width:100%;justify-content:center">Point me somewhere good</button>
+        <p class="fine">Goes straight to our team — not a mailing list.</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>St. Paul's Ocean Grove Church</h4>
+        <ul>
+          <li>Beach Church · Sundays 9:00 AM · Boardwalk Pavilion</li>
+          <li>80 Embury Avenue, Ocean Grove, NJ 07756</li>
+          <li>732-775-1125 · <a href="#">Get directions</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Next Steps</h4>
+        <ul>
+          <li><a href="#">I'm New</a></li>
+          <li><a href="#">Worship Online</a></li>
+          <li><a href="#">Small Groups</a></li>
+          <li><a href="#">Prayer</a></li>
+          <li><a href="#">Give</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Follow Along</h4>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">YouTube</a></li>
+          <li><a href="#">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 St. Paul's Ocean Grove Church · A United Methodist Congregation</span>
+      <span>"Love each other as I have loved you." — John 15:12</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+function showPage(id, btn){
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  document.querySelectorAll('.switchbar button').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  window.scrollTo({top:0});
+}
+</script>
+</body>
+</html>
