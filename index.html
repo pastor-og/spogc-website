@@ -3,51 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>St. Paul's Ocean Grove Church — Beach Church, NJ Shore</title>
-  <meta name="description" content="Wherever you are with God, start here. Beach Church — Sundays at 9 AM at the Boardwalk Pavilion in Ocean Grove, NJ.">
+  <title>St. Paul's Ocean Grove Church — Jesus is more.</title>
+  <meta name="description" content="Jesus is more. More love. More purpose. More peace. Life is better with Jesus. Beach Church — Sundays 9 AM, Boardwalk Pavilion, Ocean Grove NJ.">
+  <meta property="og:title" content="Jesus is more. — St. Paul's Ocean Grove Church">
+  <meta property="og:description" content="More love. More purpose. More peace. No matter where you are — life is better with Jesus.">
+  <meta property="og:url" content="https://oceangrove.church">
+  <meta property="og:type" content="website">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,800&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
 
-<a class="skip-link" href="#start">Skip to content</a>
+<a class="skip-link" href="#main">Skip to content</a>
 
 <!-- ═══ Navigation ═══ -->
-<nav aria-label="Main navigation">
+<nav class="site-nav" aria-label="Main navigation">
   <div class="nav-inner">
-    <a class="logo" href="/">St. Paul's <span>Ocean Grove</span></a>
+    <a class="nav-logo" href="/">St. Paul's Ocean Grove</a>
     <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
     <ul class="nav-links">
-      <li><a href="/start-here.html">Start Here</a></li>
-      <li><a href="#">Watch</a></li>
-      <li><a href="#connect">Connect</a></li>
-      <li><a data-link="give" href="#">Give</a></li>
-      <li><a class="nav-cta" href="/start-here.html">Plan a Visit</a></li>
+      <li class="nav-links-pages"><a href="/start-here.html">Visit</a></li>
+      <li class="nav-links-pages"><a href="#worship">Worship</a></li>
+      <li class="nav-links-pages"><a href="#belong">Connect</a></li>
+      <li class="nav-links-pages"><a href="#neighborhood">Serve</a></li>
+      <li><a class="nav-btn nav-btn--pray" href="#pray">✙ Pray</a></li>
+      <li><a class="nav-btn nav-btn--give" data-link="give" href="https://give.tithe.ly/?formId=3af03b0f-c9b0-4b0a-9f71-74c5c1a114d6">Give</a></li>
     </ul>
   </div>
 </nav>
 
+<main id="main">
+
 <!-- ═══ Hero ═══ -->
 <header class="hero">
-  <div class="moon" aria-hidden="true"></div>
-  <div class="hero-inner">
-    <div class="eyebrow">St. Paul's Ocean Grove Church · NJ Shore</div>
-    <h1 class="display">Wherever you are with God, <em>start here.</em></h1>
-    <p class="lede">Beginning, coming back, or going deeper — there's a place for you at the water's edge.</p>
-    <div class="hero-ctas">
-      <a class="btn btn-dawn" href="#start">Start here</a>
-      <a class="btn btn-ghost" href="#thisweek">Watch a service</a>
-    </div>
+  <div class="hero__inner">
+    <div class="eyebrow hero__eyebrow">St. Paul's Ocean Grove Church</div>
+    <h1 class="serif">Jesus is <em>more.</em></h1>
+    <p class="hero__sub">More love. More purpose. More peace. No matter where you are — life is better with Jesus.</p>
   </div>
-  <div class="times-bar">
-    <div class="times-inner">
-      <span><strong>Sundays · 9:00 AM</strong> — Beach Church at the Boardwalk Pavilion</span>
-      <span><strong>Anytime</strong> — Worship online from anywhere</span>
+  <a class="sunday-bar" href="/start-here.html" id="sunday-bar">
+    <span class="sunday-bar__icon">☀</span>
+    <div>
+      <h4 id="service-title">Beach Church · Sunday 9am</h4>
+      <p id="service-location">Boardwalk Pavilion, Ocean Grove</p>
     </div>
-  </div>
+    <span class="sunday-bar__arrow">›</span>
+  </a>
 </header>
+
+<!-- ═══ Pull quote ═══ -->
+<section class="sec sec--ink" style="padding-top:24px;padding-bottom:24px">
+  <div class="sec__inner">
+    <div class="pullquote">"Love each other as I have loved you."<span class="pullquote__attr">Jesus — John 15:12</span></div>
+  </div>
+</section>
 
 <!-- ═══ Tide-line divider ═══ -->
 <svg class="tideline" viewBox="0 0 1440 70" preserveAspectRatio="none" aria-hidden="true">
@@ -55,66 +66,128 @@
 </svg>
 
 <!-- ═══ Start Where You Are — Pathways ═══ -->
-<section id="start">
-  <div class="wrap">
-    <div class="section-head">
-      <div class="eyebrow">Start where you are</div>
-      <h2 class="display">No prerequisites.</h2>
-      <p>Three doors, same church. Pick the one that sounds like you.</p>
-    </div>
+<section id="start" class="sec sec--foam">
+  <div class="sec__inner">
+    <h2 class="sec__title serif">Start where you are.</h2>
+    <p class="sec__sub">Three doors, same church. Pick the one that sounds like you.</p>
     <div class="paths">
-      <!-- Populated from content.json by content.js -->
       <a class="path" href="/start-here.html">
-        <div class="wave" aria-hidden="true"></div>
-        <div class="stage">Beginning</div>
-        <h3>Curious about Jesus</h3>
+        <div class="path__stage">Beginning</div>
+        <h3 class="serif">Curious about Jesus</h3>
         <p>Questions welcome — doubts too. Alpha is a relaxed dinner-table conversation about life and faith. No background required, nothing assumed.</p>
-        <span class="go">Explore Alpha →</span>
+        <span class="path__go">Explore Alpha →</span>
       </a>
       <a class="path" href="/start-here.html">
-        <div class="wave" aria-hidden="true"></div>
-        <div class="stage">Returning</div>
-        <h3>Coming back to faith</h3>
-        <p>Been away a while? You're not behind, and nobody's keeping score. Beach Church is the easiest way back in — sand, sea air, real people.</p>
-        <span class="go">Plan a visit →</span>
+        <div class="path__stage">Returning</div>
+        <h3 class="serif">Coming back to faith</h3>
+        <p>Been away a while? Nobody's keeping score. Beach Church is the easiest way back in — sand, sea air, real people.</p>
+        <span class="path__go">Plan a visit →</span>
       </a>
       <a class="path" href="/next-steps.html">
-        <div class="wave" aria-hidden="true"></div>
-        <div class="stage">Deepening</div>
-        <h3>Ready to go deeper</h3>
+        <div class="path__stage">Deepening</div>
+        <h3 class="serif">Ready to go deeper</h3>
         <p>Grow with people who get it — small groups, serving teams, and rhythms of prayer rooted in this place between the ocean and the town.</p>
-        <span class="go">Find your people →</span>
+        <span class="path__go">Find your people →</span>
       </a>
     </div>
   </div>
 </section>
 
-<!-- ═══ Connect / Gather ═══ -->
-<section id="connect">
-  <div class="wrap connect-grid">
-    <div>
-      <div class="section-head" style="margin-bottom:0">
-        <div class="eyebrow" style="color:var(--tide-light)">Stay connected</div>
-        <h2 class="display">One text. That's the whole sign-up.</h2>
-        <p>Get one short message a week — what's happening, where to show up, and something worth reading on the way. No spam, ever. Unsubscribe anytime.</p>
-      </div>
-      <div class="textline">
-        <span class="kbd" data-content="text-keyword">Text HELLO to (732) 555-0123</span>
-        <span style="font-size:.9rem;opacity:.85">or use the card → we'll take it from there.</span>
-      </div>
+<!-- ═══ Start Here — Spiritual entry points ═══ -->
+<section class="sec sec--foam" style="padding-top:0">
+  <div class="sec__inner">
+    <h2 class="sec__title serif">Or start here.</h2>
+    <p class="sec__sub">Wherever life finds you — exploring, healing, questioning, or just curious — there's a place.</p>
+    <div class="entry" id="entry-jesus">
+      <div class="entry__icon">✙</div>
+      <div><h4><a href="/jesus.html">Meet Jesus</a></h4><p>The relationship that changes everything. Start the conversation.</p></div>
     </div>
-    <div class="connect-card">
-      <h3>Get the free 5-day devotional</h3>
-      <p class="small"><em data-content="devotional-title">Five Mornings by the Sea</em> — <span data-content="devotional-desc">short daily readings for the walk, the commute, or the coffee. Yours when you connect.</span></p>
-      <!-- ┌─────────────────────────────────────────────┐
-           │  TITHE.LY FORM EMBED goes here.             │
-           │  Replace this placeholder with your          │
-           │  Tithe.ly form embed code in Week 3.         │
-           └─────────────────────────────────────────────┘ -->
-      <div class="field"><label for="fn">First name</label><input id="fn" type="text" placeholder="Sam"></div>
-      <div class="field"><label for="em">Email or phone</label><input id="em" type="text" placeholder="you@example.com"></div>
-      <button class="btn btn-dawn" style="width:100%;justify-content:center">Send me the devotional</button>
-      <p class="fine">We'll never share your info. One weekly email, that's it.</p>
+    <div class="entry">
+      <div class="entry__icon">💡</div>
+      <div><h4>Alpha</h4><p>Explore faith over food. Ask anything. No pressure.</p></div>
+    </div>
+    <div class="entry">
+      <div class="entry__icon">↻</div>
+      <div><h4>12 Steps for Christians</h4><p>Recovery in a space where God and Jesus are part of the conversation.</p><span class="tag tag--new">New group</span></div>
+    </div>
+    <div class="entry" id="pray">
+      <div class="entry__icon">🙏</div>
+      <div><h4>Prayer</h4><p>Share what's on your heart. Someone will pray with you right now.</p></div>
+    </div>
+    <div class="share-row">
+      <span class="share-row__label">Know someone?</span>
+      <button class="share-btn" data-share="start">✉ Text</button>
+      <button class="share-btn" data-share-native="start">↗ Share</button>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ Everyone belongs ═══ -->
+<section id="belong" class="sec sec--sand">
+  <div class="sec__inner">
+    <h2 class="sec__title serif">Everyone belongs here.</h2>
+    <p class="sec__sub">Every age. Every background. Every story.</p>
+    <div class="entry">
+      <div class="entry__icon">👨‍👩‍👧‍👦</div>
+      <div><h4>Family Ministries</h4><p>Anchored Kids, Students, Twenties, Families, and Tender Care Nursery School — year-round.</p></div>
+    </div>
+    <div class="entry">
+      <div class="entry__icon">♿</div>
+      <div><h4>SPARK — IDD ministry</h4><p>A joyful community for people with intellectual and developmental disabilities and their families.</p><span class="tag tag--new">Growing</span></div>
+    </div>
+    <div class="entry">
+      <div class="entry__icon">💬</div>
+      <div><h4>Small groups</h4><p>Real community across the Shore area.</p></div>
+    </div>
+    <div class="entry">
+      <div class="entry__icon">📖</div>
+      <div><h4>Study</h4><p>Bible and Christian books. Go deeper together.</p></div>
+    </div>
+    <div class="entry">
+      <div class="entry__icon">☕</div>
+      <div><h4>Women's community</h4><p>Monday Night Connect · Sisterhood · HEART</p></div>
+    </div>
+    <div class="entry">
+      <div class="entry__icon">☀</div>
+      <div><h4>Beach Club</h4><p>Summer kids programming at the Pavilion.</p><span class="tag tag--summer">Summer</span></div>
+    </div>
+    <div class="share-row">
+      <span class="share-row__label">Invite someone to your group</span>
+      <button class="share-btn" data-share="belong">✉ Text</button>
+      <button class="share-btn" data-share-native="belong">↗ Share</button>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ In the neighborhood ═══ -->
+<section id="neighborhood" class="sec sec--foam">
+  <div class="sec__inner">
+    <h2 class="sec__title serif">The church is in the neighborhood.</h2>
+    <p class="sec__sub">Town hall. The library. The schools. The block party down the street. Wherever people are, that's where the church is — because everyone needs Jesus.</p>
+    <div class="entry">
+      <div class="entry__icon">⛺</div>
+      <div><h4>Block parties</h4><p>Grills, games, conversations. Neighbors first.</p></div>
+    </div>
+    <div class="entry">
+      <div class="entry__icon">🛡</div>
+      <div><h4>National Night Out</h4><p>Building trust between church and community.</p></div>
+    </div>
+    <div class="entry">
+      <div class="entry__icon">🏘</div>
+      <div><h4>Community events</h4><p>Sunday fellowship, partnerships, special events.</p></div>
+    </div>
+    <div class="entry">
+      <div class="entry__icon">🚗</div>
+      <div><h4>Caring Friends</h4><p>Rides to appointments for those who need them.</p></div>
+    </div>
+    <div class="entry">
+      <div class="entry__icon">🔧</div>
+      <div><h4>Helping Hands</h4><p>Practical help for neighbors.</p></div>
+    </div>
+    <div class="share-row">
+      <span class="share-row__label">Share an event</span>
+      <button class="share-btn" data-share="neighborhood">✉ Text</button>
+      <button class="share-btn" data-share-native="neighborhood">↗ Share</button>
     </div>
   </div>
 </section>
@@ -125,27 +198,19 @@
 </svg>
 
 <!-- ═══ This Week — Sermon / Media ═══ -->
-<section id="thisweek" style="padding-top:40px">
-  <div class="wrap">
-    <div class="section-head">
-      <div class="eyebrow">This week</div>
-      <h2 class="display">Catch the latest message</h2>
-      <p>Missed Sunday — or just found us? Start with this week's message, or grab a 60-second clip.</p>
-    </div>
+<section id="worship" class="sec sec--foam" style="padding-top:40px">
+  <div class="sec__inner">
+    <h2 class="sec__title serif">Catch the latest message</h2>
+    <p class="sec__sub">Missed Sunday — or just found us? Start with this week's message, or grab a 60-second clip.</p>
     <div class="media-grid">
-      <div class="video-main">
+      <div class="video-main" id="video-main">
         <div class="play" aria-hidden="true">▶</div>
-        <div class="vid-label">LATEST: "Deep Water Doesn't Scare Him" · Summer of Stewardship, Wk 3</div>
+        <div class="vid-label" id="vid-label">Latest message loading...</div>
       </div>
-      <div class="clips">
-        <!-- Populated from content.json by content.js -->
+      <div class="clips" id="clips">
         <a class="clip" href="#">
           <div class="thumb">0:60</div>
-          <div><strong>The tide always comes back</strong><span>60-sec clip · share-ready</span></div>
-        </a>
-        <a class="clip" href="#">
-          <div class="thumb">0:45</div>
-          <div><strong>What Zacchaeus knew about being seen</strong><span>45-sec clip · share-ready</span></div>
+          <div><strong>Share-ready clip</strong><span>60 seconds · drop in your story</span></div>
         </a>
         <a class="clip" href="#">
           <div class="thumb">ALL</div>
@@ -156,30 +221,52 @@
   </div>
 </section>
 
-<!-- ═══ Invite ═══ -->
-<section id="invite">
-  <div class="wrap">
-    <div class="section-head">
-      <div class="eyebrow">Bring someone with you</div>
-      <h2 class="display">The best invitation is still a friend's.</h2>
-      <p>Most people come to faith because someone they trust asked. Make that ask take ten seconds.</p>
+<!-- ═══ What's next — Acts 2:42-45 ═══ -->
+<section id="nextsteps" class="sec sec--ink">
+  <div class="sec__inner">
+    <h2 class="sec__title serif">What's next?</h2>
+    <p class="sec__sub">The first Christians devoted themselves to teaching, fellowship, breaking bread, and prayer. That rhythm hasn't changed.</p>
+    <div class="acts-ref">Acts 2:42-45</div>
+    <div class="entry">
+      <div class="step__num">1</div>
+      <div><h4>Show up</h4><p>Come Sunday. No dress code, no expectations.</p></div>
     </div>
+    <div class="entry">
+      <div class="step__num">2</div>
+      <div><h4>Find your people</h4><p>Small group, Alpha, study. Faith grows in community.</p></div>
+    </div>
+    <div class="entry">
+      <div class="step__num">3</div>
+      <div><h4>Use your gifts</h4><p>Serve, create, lead. There's a team for you.</p></div>
+    </div>
+    <div class="entry">
+      <div class="step__num">4</div>
+      <div><h4>Bring someone</h4><p>Everyone needs Jesus — and you know someone who needs to hear that.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ Invite ═══ -->
+<section id="invite" class="sec sec--sand">
+  <div class="sec__inner">
+    <h2 class="sec__title serif">Bring someone with you.</h2>
+    <p class="sec__sub">Most people come to faith because someone they trust asked. Make that ask take ten seconds.</p>
     <div class="invite-grid">
       <div class="invite-card">
-        <div class="ic" aria-hidden="true">💬</div>
-        <h3>Send a text invite</h3>
+        <div class="invite-card__icon">💬</div>
+        <h3 class="serif">Send a text invite</h3>
         <p>One tap opens a ready-to-send message: "Hey — come to Beach Church with me Sunday? 9 AM at the pavilion. I'll save you a seat."</p>
         <a data-invite="sms" href="sms:?&body=Hey%20%E2%80%94%20come%20to%20Beach%20Church%20with%20me%20Sunday%3F%209%20AM%20at%20the%20Ocean%20Grove%20boardwalk%20pavilion.%20I%E2%80%99ll%20save%20you%20a%20seat.%20oceangrove.church">Send the invite →</a>
       </div>
       <div class="invite-card">
-        <div class="ic" aria-hidden="true">📲</div>
-        <h3>Share this week's clip</h3>
+        <div class="invite-card__icon">📲</div>
+        <h3 class="serif">Share this week's clip</h3>
         <p>Every message becomes short, share-ready clips. Drop one in your story or a group chat — it does the explaining for you.</p>
         <a href="#">Share a clip →</a>
       </div>
       <div class="invite-card">
-        <div class="ic" aria-hidden="true">🌊</div>
-        <h3>Grab an invite card</h3>
+        <div class="invite-card__icon">🌊</div>
+        <h3 class="serif">Grab an invite card</h3>
         <p>Download a phone-sized graphic with the time, the place, and a map pin. Post it, AirDrop it, print it — whatever works.</p>
         <a href="#">Download →</a>
       </div>
@@ -187,44 +274,54 @@
   </div>
 </section>
 
-<!-- ═══ Footer ═══ -->
-<footer>
-  <div class="wrap">
-    <div class="foot-grid">
-      <div>
-        <h4>St. Paul's Ocean Grove Church</h4>
-        <ul>
-          <li>Beach Church · Sundays 9:00 AM</li>
-          <li>Boardwalk Pavilion, Ocean Grove, NJ</li>
-          <li><a data-content="directions" href="https://maps.google.com/?q=St+Pauls+Ocean+Grove+Church+NJ">Get directions</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Next Steps</h4>
-        <ul>
-          <li><a href="/start-here.html">I'm New</a></li>
-          <li><a href="/next-steps.html">Alpha</a></li>
-          <li><a href="/next-steps.html">Small Groups</a></li>
-          <li><a href="#">Prayer</a></li>
-          <li><a data-link="give" href="#">Give</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Follow Along</h4>
-        <ul>
-          <li><a data-link="instagram" href="#">Instagram</a></li>
-          <li><a data-link="youtube" href="#">YouTube</a></li>
-          <li><a data-link="facebook" href="#">Facebook</a></li>
-        </ul>
-      </div>
+<!-- ═══ Connect / Gather ═══ -->
+<section id="connect" class="sec sec--ink">
+  <div class="sec__inner connect-grid">
+    <div>
+      <div class="eyebrow" style="color:var(--tide-light);margin-bottom:12px">Stay connected</div>
+      <h2 class="sec__title serif">One text. That's the whole sign-up.</h2>
+      <p class="sec__sub">Get one short message a week — what's happening, where to show up, and something worth reading on the way. No spam, ever.</p>
     </div>
-    <div class="foot-bottom">
-      <span>© 2026 St. Paul's Ocean Grove Church · A United Methodist Congregation</span>
-      <span>"Love each other as I have loved you." — John 15:12</span>
+    <div class="connect-card">
+      <h3 class="serif">Get the free 5-day devotional</h3>
+      <p style="font-size:.88rem;opacity:.7;margin-bottom:16px"><em>Five Mornings by the Sea</em> — short daily readings for the walk, the commute, or the coffee.</p>
+      <!-- Tithe.ly form embed will replace these fields -->
+      <div class="field"><label for="fn">First name</label><input id="fn" type="text" placeholder="Sam"></div>
+      <div class="field"><label for="em">Email or phone</label><input id="em" type="text" placeholder="you@example.com"></div>
+      <button class="cta cta--primary" style="width:100%;text-align:center">Send me the devotional</button>
+      <p style="font-size:.72rem;opacity:.4;margin-top:12px;text-align:center">We'll never share your info. One weekly email, that's it.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ Prayer + Give ═══ -->
+<section class="sec sec--ink" style="text-align:center;padding-top:24px">
+  <div class="sec__inner">
+    <div class="pullquote">"His presence provides provision, purpose, and peace."</div>
+    <div style="margin-top:20px">
+      <a class="cta cta--primary" href="#pray">Share a prayer</a>
+      <a class="cta cta--outline" data-link="give" href="https://give.tithe.ly/?formId=3af03b0f-c9b0-4b0a-9f71-74c5c1a114d6">Give</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ═══ Footer ═══ -->
+<footer class="site-footer">
+  <div class="footer__inner">
+    <div class="footer__info">
+      St. Paul's Ocean Grove Church · 80 Embury Ave, Ocean Grove NJ 07756 · 732-775-1125<br>
+      <span style="opacity:.6">"Love each other as I have loved you." — John 15:12</span>
+    </div>
+    <div class="footer__socials">
+      <a href="https://facebook.com/oceangrovechurch" aria-label="Facebook">fb</a>
+      <a href="https://instagram.com/oceangrovechurch" aria-label="Instagram">ig</a>
+      <a href="https://youtube.com/@oceangrovechurch" aria-label="YouTube">yt</a>
     </div>
   </div>
 </footer>
 
-<script src="/js/content.js"></script>
+<script src="/js/site.js"></script>
 </body>
 </html>
