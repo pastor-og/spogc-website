@@ -1,8 +1,8 @@
 {
   "series": {
-    "name": "Summer of Stewardship",
-    "slug": "summer-of-stewardship",
-    "season": "Beach Church \u00b7 Summer 2026"
+    "name": "Sunday Worship",
+    "slug": "sunday-worship",
+    "season": "St. Paul's Ocean Grove Church \u00b7 2026"
   },
   "defaults": {
     "location": "Beach Church at the Boardwalk Pavilion",
@@ -19,8 +19,943 @@
   },
   "sundays": [
     {
-      "slug": "stewardship-of-encouragement",
+      "slug": "one-body-many-members",
       "weekNumber": 1,
+      "date": "2026-02-15",
+      "title": "One Body, Many Members",
+      "scripture": "Romans 12:1\u20138",
+      "speaker": "Pastor Joe Tiedemann",
+      "bigIdea": "We are one body with many members \u2014 each with different gifts, all belonging to one another.",
+      "heroTeaser": "You don't have to do everything. But the thing you're made to do? The body can't function without it.",
+      "pullquote": {
+        "text": "You don't have to do everything. But the thing you're made to do? The body can't function without it.",
+        "attribution": "Pastor Joe Tiedemann"
+      },
+      "outline": [],
+      "reflectionQuestions": [],
+      "conversationStarters": [],
+      "spiritualPractice": {
+        "title": "Coming soon",
+        "description": "Spiritual practice content will be generated for this week."
+      },
+      "songs": [
+        {
+          "title": "Graves Into Gardens",
+          "position": "Song 1",
+          "key": "E"
+        },
+        {
+          "title": "Same God",
+          "position": "Song 2",
+          "key": "Db"
+        },
+        {
+          "title": "Battle Belongs",
+          "position": "Song 3",
+          "key": "Db"
+        },
+        {
+          "title": "Promises",
+          "position": "Song 4",
+          "key": "Bb"
+        },
+        {
+          "title": "I Speak Jesus",
+          "position": "Song 5",
+          "key": "C"
+        }
+      ],
+      "video": {
+        "serviceId": "y3n4z6FPy40",
+        "clipId": "",
+        "chapters": []
+      },
+      "isPublished": true,
+      "seriesName": "Lent 2026",
+      "seriesWeek": 1
+    },
+    {
+      "slug": "when-the-wilderness-talks-back",
+      "weekNumber": 2,
+      "date": "2026-02-22",
+      "title": "When the Wilderness Talks Back",
+      "scripture": "Matthew 4:1\u201311",
+      "speaker": "Pastor Joe Tiedemann",
+      "bigIdea": "The wilderness isn't where God leaves you \u2014 it's where God shows what's real.",
+      "heroTeaser": "Jesus fought temptation not with sheer willpower, but with Scripture and trust. What story will you believe when you're tested?",
+      "pullquote": {
+        "text": "Jesus fought temptation not with sheer willpower, but with Scripture and trust. What story will you believe when you're tested?",
+        "attribution": "Pastor Joe Tiedemann"
+      },
+      "outline": [],
+      "reflectionQuestions": [],
+      "conversationStarters": [],
+      "spiritualPractice": {
+        "title": "Coming soon",
+        "description": "Spiritual practice content will be generated for this week."
+      },
+      "songs": [],
+      "video": {
+        "serviceId": "hQfccXNKSvA",
+        "clipId": "",
+        "chapters": []
+      },
+      "isPublished": true,
+      "seriesName": "Lent 2026",
+      "seriesWeek": 2
+    },
+    {
+      "slug": "when-the-fine-print-is-grace",
+      "weekNumber": 3,
+      "date": "2026-03-01",
+      "title": "When the Fine Print Is Grace",
+      "scripture": "Genesis 17:1\u20138",
+      "speaker": "Pastor Joe Tiedemann",
+      "bigIdea": "We live in a fine-print, performance world, but God's covenant is grounded in grace.",
+      "heroTeaser": "Abraham was 99 years old when God made the promise. Grace doesn't wait for you to earn it.",
+      "pullquote": {
+        "text": "Abraham was 99 years old when God made the promise. Grace doesn't wait for you to earn it.",
+        "attribution": "Pastor Joe Tiedemann"
+      },
+      "outline": [],
+      "reflectionQuestions": [],
+      "conversationStarters": [],
+      "spiritualPractice": {
+        "title": "Coming soon",
+        "description": "Spiritual practice content will be generated for this week."
+      },
+      "songs": [],
+      "video": {
+        "serviceId": "v0PMJ-uthTQ",
+        "clipId": "",
+        "chapters": []
+      },
+      "isPublished": true,
+      "seriesName": "Lent 2026",
+      "seriesWeek": 3
+    },
+    {
+      "slug": "living-water-for-the-thirsty",
+      "weekNumber": 4,
+      "date": "2026-03-08",
+      "title": "Living Water for the Thirsty",
+      "scripture": "John 4:5\u201326",
+      "speaker": "Pastor Joe Tiedemann",
+      "bigIdea": "Jesus meets us at our deepest thirst \u2014 not with judgment, but with living water.",
+      "heroTeaser": "She came to the well at noon to avoid people. Jesus came to the well at noon to find her.",
+      "pullquote": {
+        "text": "She came to the well at noon to avoid people. Jesus came to the well at noon to find her.",
+        "attribution": "Pastor Joe Tiedemann"
+      },
+      "outline": [],
+      "reflectionQuestions": [],
+      "conversationStarters": [],
+      "spiritualPractice": {
+        "title": "Coming soon",
+        "description": "Spiritual practice content will be generated for this week."
+      },
+      "songs": [],
+      "video": {
+        "serviceId": "W43UbDfTGiE",
+        "clipId": "",
+        "chapters": []
+      },
+      "isPublished": true,
+      "seriesName": "Lent 2026",
+      "seriesWeek": 4
+    },
+    {
+      "slug": "blind-sight-opening",
+      "weekNumber": 5,
+      "date": "2026-03-15",
+      "title": "Blind Sight",
+      "scripture": "John 9:1\u201341",
+      "speaker": "Pastor Joe Tiedemann",
+      "bigIdea": "Jesus doesn't explain suffering \u2014 he enters it and brings light.",
+      "heroTeaser": "The disciples asked 'whose fault is it?' Jesus asked 'where is the mud?'",
+      "pullquote": {
+        "text": "The disciples asked 'whose fault is it?' Jesus asked 'where is the mud?'",
+        "attribution": "Pastor Joe Tiedemann"
+      },
+      "outline": [],
+      "reflectionQuestions": [],
+      "conversationStarters": [],
+      "spiritualPractice": {
+        "title": "Coming soon",
+        "description": "Spiritual practice content will be generated for this week."
+      },
+      "songs": [
+        {
+          "title": "Death Was Arrested",
+          "position": "Song 1",
+          "key": "A"
+        },
+        {
+          "title": "Graves into Gardens",
+          "position": "Song 2",
+          "key": "C"
+        },
+        {
+          "title": "King of My Heart",
+          "position": "Song 3",
+          "key": "G"
+        },
+        {
+          "title": "Defender",
+          "position": "Song 4",
+          "key": "G"
+        },
+        {
+          "title": "O Come to the Altar",
+          "position": "Song 5",
+          "key": "B"
+        }
+      ],
+      "video": {
+        "serviceId": "Wgv7bCGR-Co",
+        "clipId": "",
+        "chapters": []
+      },
+      "isPublished": true,
+      "seriesName": "Blind Sight: John 9",
+      "seriesWeek": 1
+    },
+    {
+      "slug": "blind-sight-who-did-this",
+      "weekNumber": 6,
+      "date": "2026-03-22",
+      "title": "Blind Sight: Who Did This?",
+      "scripture": "John 9:1\u20133",
+      "speaker": "Pastor Joe Tiedemann",
+      "bigIdea": "Jesus came close in ordinary moments and overturned the assumption that suffering equals punishment.",
+      "heroTeaser": "Everyone wanted to assign blame. Jesus wanted to display the works of God.",
+      "pullquote": {
+        "text": "Everyone wanted to assign blame. Jesus wanted to display the works of God.",
+        "attribution": "Pastor Joe Tiedemann"
+      },
+      "outline": [],
+      "reflectionQuestions": [],
+      "conversationStarters": [],
+      "spiritualPractice": {
+        "title": "Coming soon",
+        "description": "Spiritual practice content will be generated for this week."
+      },
+      "songs": [
+        {
+          "title": "Come Jesus Come",
+          "position": "Song 1",
+          "key": "G"
+        },
+        {
+          "title": "How Deep The Father's Love For Us",
+          "position": "Song 2",
+          "key": "F"
+        },
+        {
+          "title": "Out Of Hiding",
+          "position": "Song 3",
+          "key": "G#"
+        },
+        {
+          "title": "Hallelujah",
+          "position": "Song 4",
+          "key": "Scripture"
+        },
+        {
+          "title": "Gratitude",
+          "position": "Song 5",
+          "key": "A"
+        }
+      ],
+      "video": {
+        "serviceId": "U-A2tBrPC7g",
+        "clipId": "",
+        "chapters": []
+      },
+      "isPublished": true,
+      "seriesName": "Blind Sight: John 9",
+      "seriesWeek": 2
+    },
+    {
+      "slug": "blind-sight-king-who-walks",
+      "weekNumber": 7,
+      "date": "2026-03-29",
+      "title": "Blind Sight: The King Who Walks",
+      "scripture": "John 9:4\u20137; Matthew 21:1\u201311",
+      "speaker": "Pastor Joe Tiedemann",
+      "bigIdea": "Jesus entered Jerusalem not as a conquering king, but as one who walks alongside us.",
+      "heroTeaser": "Palm Sunday: a King who rides a donkey, heals with mud, and enters your mess before he enters his glory.",
+      "pullquote": {
+        "text": "Palm Sunday: a King who rides a donkey, heals with mud, and enters your mess before he enters his glory.",
+        "attribution": "Pastor Joe Tiedemann"
+      },
+      "outline": [],
+      "reflectionQuestions": [],
+      "conversationStarters": [],
+      "spiritualPractice": {
+        "title": "Coming soon",
+        "description": "Spiritual practice content will be generated for this week."
+      },
+      "songs": [
+        {
+          "title": "Praise",
+          "position": "Song 1",
+          "key": "A"
+        },
+        {
+          "title": "Hosanna (Praise is Rising)",
+          "position": "Song 2",
+          "key": "G"
+        },
+        {
+          "title": "House of the Lord",
+          "position": "Song 3",
+          "key": "Bb"
+        },
+        {
+          "title": "Ride Through the Palms",
+          "position": "Song 4",
+          "key": "Scripture"
+        },
+        {
+          "title": "Endless Praise",
+          "position": "Song 5",
+          "key": "Gb"
+        }
+      ],
+      "video": {
+        "serviceId": "XBa8qyD2imk",
+        "clipId": "",
+        "chapters": []
+      },
+      "isPublished": true,
+      "seriesName": "Blind Sight: John 9",
+      "seriesWeek": 3
+    },
+    {
+      "slug": "resurrection-power",
+      "weekNumber": 8,
+      "date": "2026-04-05",
+      "title": "Resurrection Power",
+      "scripture": "John 20:1\u201318",
+      "speaker": "Pastor Joe Tiedemann",
+      "bigIdea": "Easter: the tomb is empty, death is defeated, and everything is being made new.",
+      "heroTeaser": "She came looking for a body. She found a person. He called her by name.",
+      "pullquote": {
+        "text": "She came looking for a body. She found a person. He called her by name.",
+        "attribution": "Pastor Joe Tiedemann"
+      },
+      "outline": [],
+      "reflectionQuestions": [],
+      "conversationStarters": [],
+      "spiritualPractice": {
+        "title": "Coming soon",
+        "description": "Spiritual practice content will be generated for this week."
+      },
+      "songs": [
+        {
+          "title": "Death Was Arrested",
+          "position": "Song 1",
+          "key": "A"
+        },
+        {
+          "title": "It Really Is Amazing Grace",
+          "position": "Song 2",
+          "key": "Bb"
+        },
+        {
+          "title": "God So Loved (Studio Version)",
+          "position": "Song 3",
+          "key": "F"
+        },
+        {
+          "title": "Another In The Fire",
+          "position": "Song 4",
+          "key": "C"
+        },
+        {
+          "title": "King Of Kings",
+          "position": "Song 5",
+          "key": "D"
+        },
+        {
+          "title": "Living Hope",
+          "position": "Song 6",
+          "key": "Eb"
+        }
+      ],
+      "video": {
+        "serviceId": "fcTkKX31ExU",
+        "clipId": "",
+        "chapters": []
+      },
+      "isPublished": true,
+      "seriesName": "Blind Sight: John 9",
+      "seriesWeek": 4
+    },
+    {
+      "slug": "blind-sight-investigation",
+      "weekNumber": 9,
+      "date": "2026-04-12",
+      "title": "Blind Sight: The Investigation",
+      "scripture": "John 9:8\u201312",
+      "speaker": "Pastor Joe Tiedemann",
+      "bigIdea": "When God changes you, not everyone will recognize you \u2014 and that's part of the journey.",
+      "heroTeaser": "The neighbors couldn't agree: is this the same man? When Jesus heals, the old version of you doesn't quite fit anymore.",
+      "pullquote": {
+        "text": "The neighbors couldn't agree: is this the same man? When Jesus heals, the old version of you doesn't quite fit anymore.",
+        "attribution": "Pastor Joe Tiedemann"
+      },
+      "outline": [],
+      "reflectionQuestions": [],
+      "conversationStarters": [],
+      "spiritualPractice": {
+        "title": "Coming soon",
+        "description": "Spiritual practice content will be generated for this week."
+      },
+      "songs": [
+        {
+          "title": "God So Loved (Studio Version)",
+          "position": "Song 1",
+          "key": "F"
+        },
+        {
+          "title": "All Things For My Good",
+          "position": "Song 2",
+          "key": "Bb"
+        },
+        {
+          "title": "King Of My Heart",
+          "position": "Song 3",
+          "key": "Bb"
+        },
+        {
+          "title": "Holy Spirit",
+          "position": "Song 4",
+          "key": "A"
+        },
+        {
+          "title": "Same God",
+          "position": "Song 5",
+          "key": "Db"
+        }
+      ],
+      "video": {
+        "serviceId": "dgXyPYhS0O0",
+        "clipId": "",
+        "chapters": []
+      },
+      "isPublished": true,
+      "seriesName": "Blind Sight: John 9",
+      "seriesWeek": 5
+    },
+    {
+      "slug": "dry-bones",
+      "weekNumber": 10,
+      "date": "2026-04-19",
+      "title": "Dry Bones",
+      "scripture": "Ezekiel 37:1\u201314",
+      "speaker": "Megan Faulkner",
+      "bigIdea": "God breathes life into the driest, most hopeless places \u2014 and he invites you to prophesy over them.",
+      "heroTeaser": "Can these bones live? God doesn't answer the question. He tells Ezekiel to speak to them.",
+      "pullquote": {
+        "text": "Can these bones live? God doesn't answer the question. He tells Ezekiel to speak to them.",
+        "attribution": "Megan Faulkner"
+      },
+      "outline": [],
+      "reflectionQuestions": [],
+      "conversationStarters": [],
+      "spiritualPractice": {
+        "title": "Coming soon",
+        "description": "Spiritual practice content will be generated for this week."
+      },
+      "songs": [
+        {
+          "title": "Rattle!",
+          "position": "Song 1",
+          "key": "G"
+        },
+        {
+          "title": "Come Alive (Dry Bones)",
+          "position": "Song 2",
+          "key": "C"
+        },
+        {
+          "title": "Promises",
+          "position": "Song 3",
+          "key": "Bb"
+        },
+        {
+          "title": "Already Done",
+          "position": "Song 4",
+          "key": "Eb"
+        },
+        {
+          "title": "God Of Revival",
+          "position": "Song 5",
+          "key": "A"
+        }
+      ],
+      "video": {
+        "serviceId": "Ms8lwQWMekE",
+        "clipId": "",
+        "chapters": []
+      },
+      "isPublished": true,
+      "seriesName": "Blind Sight: John 9",
+      "seriesWeek": 6
+    },
+    {
+      "slug": "blind-sight-isnt-that-the-beggar",
+      "weekNumber": 11,
+      "date": "2026-04-26",
+      "title": "Blind Sight: Isn't That the Beggar?",
+      "scripture": "John 9:8\u201312",
+      "speaker": "Pastor Joe Tiedemann",
+      "bigIdea": "Identity transformation is disorienting \u2014 for the person changed and for everyone watching.",
+      "heroTeaser": "They kept asking 'isn't this the man who used to sit and beg?' He kept saying 'I am the man.' Sometimes the hardest part of healing is convincing everyone else it happened.",
+      "pullquote": {
+        "text": "They kept asking 'isn't this the man who used to sit and beg?' He kept saying 'I am the man.' Sometimes the hardest part of healing is convincing everyone else it happened.",
+        "attribution": "Pastor Joe Tiedemann"
+      },
+      "outline": [],
+      "reflectionQuestions": [],
+      "conversationStarters": [],
+      "spiritualPractice": {
+        "title": "Coming soon",
+        "description": "Spiritual practice content will be generated for this week."
+      },
+      "songs": [
+        {
+          "title": "Set A Fire",
+          "position": "Song 1",
+          "key": "C"
+        },
+        {
+          "title": "Give Me Faith",
+          "position": "Song 2",
+          "key": "A"
+        },
+        {
+          "title": "Jesus Does",
+          "position": "Song 3",
+          "key": "Gb"
+        },
+        {
+          "title": "Good Plans",
+          "position": "Song 4",
+          "key": "D"
+        },
+        {
+          "title": "I Speak Jesus",
+          "position": "Song 5",
+          "key": "C"
+        }
+      ],
+      "video": {
+        "serviceId": "J44ih17Ua2s",
+        "clipId": "",
+        "chapters": []
+      },
+      "isPublished": true,
+      "seriesName": "Blind Sight: John 9",
+      "seriesWeek": 7
+    },
+    {
+      "slug": "when-god-breaks-your-boxes",
+      "weekNumber": 12,
+      "date": "2026-05-03",
+      "title": "When God Breaks Your Boxes",
+      "scripture": "John 9:13\u201317",
+      "speaker": "Pastor Joe Tiedemann",
+      "bigIdea": "When God moves outside our comfort zone, he invites us to see him bigger than our categories allow.",
+      "heroTeaser": "The Pharisees had a problem: the healing was real, but it broke their rules. What happens when God doesn't fit your theology?",
+      "pullquote": {
+        "text": "The Pharisees had a problem: the healing was real, but it broke their rules. What happens when God doesn't fit your theology?",
+        "attribution": "Pastor Joe Tiedemann"
+      },
+      "outline": [],
+      "reflectionQuestions": [],
+      "conversationStarters": [],
+      "spiritualPractice": {
+        "title": "Coming soon",
+        "description": "Spiritual practice content will be generated for this week."
+      },
+      "songs": [
+        {
+          "title": "Awake My Soul",
+          "position": "Song 1",
+          "key": "F"
+        },
+        {
+          "title": "Take You At Your Word",
+          "position": "Song 2",
+          "key": "C"
+        },
+        {
+          "title": "Authority",
+          "position": "Song 3",
+          "key": "C"
+        },
+        {
+          "title": "More Like Jesus",
+          "position": "Song 4",
+          "key": "Bb"
+        },
+        {
+          "title": "Not In A Hurry",
+          "position": "Song 5",
+          "key": "A"
+        }
+      ],
+      "video": {
+        "serviceId": "najVv5lyBAU",
+        "clipId": "",
+        "chapters": []
+      },
+      "isPublished": true,
+      "seriesName": "Blind Sight: John 9",
+      "seriesWeek": 8
+    },
+    {
+      "slug": "the-fear-of-being-cut-off",
+      "weekNumber": 13,
+      "date": "2026-05-10",
+      "title": "The Fear of Being Cut Off",
+      "scripture": "John 9:18\u201334",
+      "speaker": "Pastor Joe Tiedemann",
+      "bigIdea": "Fear shrinks and silences us, but Jesus gives courage, clarity, and belonging.",
+      "heroTeaser": "His parents knew the truth but wouldn't say it \u2014 because they were afraid of being expelled. Fear doesn't just silence you. It makes you abandon the people you love.",
+      "pullquote": {
+        "text": "His parents knew the truth but wouldn't say it \u2014 because they were afraid of being expelled. Fear doesn't just silence you. It makes you abandon the people you love.",
+        "attribution": "Pastor Joe Tiedemann"
+      },
+      "outline": [],
+      "reflectionQuestions": [],
+      "conversationStarters": [],
+      "spiritualPractice": {
+        "title": "Coming soon",
+        "description": "Spiritual practice content will be generated for this week."
+      },
+      "songs": [
+        {
+          "title": "Jireh",
+          "position": "Song 1",
+          "key": "Eb"
+        },
+        {
+          "title": "Battle Belongs",
+          "position": "Song 2",
+          "key": "Db"
+        },
+        {
+          "title": "Good Good Father",
+          "position": "Song 3",
+          "key": "A"
+        },
+        {
+          "title": "Living Hope",
+          "position": "Song 4",
+          "key": "Eb"
+        },
+        {
+          "title": "Who You Say I Am",
+          "position": "Song 5",
+          "key": "A"
+        }
+      ],
+      "video": {
+        "serviceId": "G-LX0wzSfTY",
+        "clipId": "",
+        "chapters": []
+      },
+      "isPublished": true,
+      "seriesName": "Blind Sight: John 9",
+      "seriesWeek": 9
+    },
+    {
+      "slug": "found-by-jesus",
+      "weekNumber": 14,
+      "date": "2026-05-17",
+      "title": "Found by Jesus",
+      "scripture": "John 9:35\u201341",
+      "speaker": "Pastor Joe Tiedemann",
+      "bigIdea": "Jesus finds the rejected, receives the humble, and exposes spiritual pride.",
+      "heroTeaser": "They threw him out of the synagogue. Jesus went looking for him. That's the gospel in one sentence.",
+      "pullquote": {
+        "text": "They threw him out of the synagogue. Jesus went looking for him. That's the gospel in one sentence.",
+        "attribution": "Pastor Joe Tiedemann"
+      },
+      "outline": [],
+      "reflectionQuestions": [],
+      "conversationStarters": [],
+      "spiritualPractice": {
+        "title": "Coming soon",
+        "description": "Spiritual practice content will be generated for this week."
+      },
+      "songs": [
+        {
+          "title": "I Thank God",
+          "position": "Song 1",
+          "key": "C"
+        },
+        {
+          "title": "Rest On Us",
+          "position": "Song 2",
+          "key": "F"
+        },
+        {
+          "title": "Heal Our Land",
+          "position": "Song 3",
+          "key": "D"
+        },
+        {
+          "title": "Here Comes The Church",
+          "position": "Song 4",
+          "key": "C"
+        },
+        {
+          "title": "Endless Praise",
+          "position": "Song 5",
+          "key": "Gb"
+        }
+      ],
+      "video": {
+        "serviceId": "5B09TX-hubs",
+        "clipId": "",
+        "chapters": []
+      },
+      "isPublished": true,
+      "seriesName": "Blind Sight: John 9",
+      "seriesWeek": 10
+    },
+    {
+      "slug": "owned-by-love",
+      "weekNumber": 15,
+      "date": "2026-05-24",
+      "title": "Owned by Love",
+      "scripture": "Psalm 24:1; 1 Corinthians 6:19\u201320",
+      "speaker": "Pastor Joe Tiedemann",
+      "bigIdea": "Stewardship includes the heart \u2014 you belong to God, and that changes everything.",
+      "heroTeaser": "The earth is the Lord's, and everything in it. Including you. What if being 'owned' by God is the most freeing thing that could happen?",
+      "pullquote": {
+        "text": "The earth is the Lord's, and everything in it. Including you. What if being 'owned' by God is the most freeing thing that could happen?",
+        "attribution": "Pastor Joe Tiedemann"
+      },
+      "outline": [],
+      "reflectionQuestions": [],
+      "conversationStarters": [],
+      "spiritualPractice": {
+        "title": "Coming soon",
+        "description": "Spiritual practice content will be generated for this week."
+      },
+      "songs": [
+        {
+          "title": "Graves Into Gardens",
+          "position": "Song 1",
+          "key": "E"
+        },
+        {
+          "title": "Firm Foundation (He Won't)",
+          "position": "Song 2",
+          "key": "Bb"
+        },
+        {
+          "title": "Rattle!",
+          "position": "Song 3",
+          "key": "G"
+        },
+        {
+          "title": "Jireh",
+          "position": "Song 4",
+          "key": "Eb"
+        },
+        {
+          "title": "Christ Be Magnified",
+          "position": "Song 5",
+          "key": "F"
+        }
+      ],
+      "video": {
+        "serviceId": "eL9YRIxaQTY",
+        "clipId": "",
+        "chapters": []
+      },
+      "isPublished": true,
+      "seriesName": "Summer of Stewardship",
+      "seriesWeek": 1
+    },
+    {
+      "slug": "stewarding-the-hidden-places",
+      "weekNumber": 16,
+      "date": "2026-05-31",
+      "title": "Stewarding the Hidden Places",
+      "scripture": "Psalm 139:23\u201324; Luke 19:1\u201310",
+      "speaker": "Pastor Joe Tiedemann",
+      "bigIdea": "Stewardship includes the heart \u2014 the hidden places only God sees.",
+      "heroTeaser": "Zacchaeus climbed a tree to see Jesus. Jesus looked up and saw everything Zacchaeus had been hiding.",
+      "pullquote": {
+        "text": "Zacchaeus climbed a tree to see Jesus. Jesus looked up and saw everything Zacchaeus had been hiding.",
+        "attribution": "Pastor Joe Tiedemann"
+      },
+      "outline": [],
+      "reflectionQuestions": [],
+      "conversationStarters": [],
+      "spiritualPractice": {
+        "title": "Coming soon",
+        "description": "Spiritual practice content will be generated for this week."
+      },
+      "songs": [
+        {
+          "title": "Honey In The Rock",
+          "position": "Song 1",
+          "key": "D"
+        },
+        {
+          "title": "God So Loved (Studio Version)",
+          "position": "Song 2",
+          "key": "F"
+        },
+        {
+          "title": "Make Room",
+          "position": "Song 3",
+          "key": "A"
+        },
+        {
+          "title": "Trust In You",
+          "position": "Song 4",
+          "key": "A"
+        },
+        {
+          "title": "Already Done",
+          "position": "Song 5",
+          "key": "Eb"
+        }
+      ],
+      "video": {
+        "serviceId": "_MEUQoHQ8R4",
+        "clipId": "",
+        "chapters": []
+      },
+      "isPublished": true,
+      "seriesName": "Summer of Stewardship",
+      "seriesWeek": 2
+    },
+    {
+      "slug": "grace-you-can-practice",
+      "weekNumber": 17,
+      "date": "2026-06-07",
+      "title": "Grace You Can Practice",
+      "scripture": "Acts 2:42\u201347",
+      "speaker": "Pastor Joe Tiedemann",
+      "bigIdea": "Grace is a gift you receive and a way of life you practice \u2014 together.",
+      "heroTeaser": "The early church didn't just believe in grace. They devoted themselves to it \u2014 daily, communally, sacrificially.",
+      "pullquote": {
+        "text": "The early church didn't just believe in grace. They devoted themselves to it \u2014 daily, communally, sacrificially.",
+        "attribution": "Pastor Joe Tiedemann"
+      },
+      "outline": [],
+      "reflectionQuestions": [],
+      "conversationStarters": [],
+      "spiritualPractice": {
+        "title": "Coming soon",
+        "description": "Spiritual practice content will be generated for this week."
+      },
+      "songs": [
+        {
+          "title": "Authority",
+          "position": "Song 1",
+          "key": "C"
+        },
+        {
+          "title": "Holy Ground",
+          "position": "Song 2",
+          "key": "Heal"
+        },
+        {
+          "title": "Our Land",
+          "position": "Song 3",
+          "key": "D"
+        },
+        {
+          "title": "Come Alive (Dry Bones)",
+          "position": "Song 4",
+          "key": "C"
+        },
+        {
+          "title": "New Wine",
+          "position": "Song 5",
+          "key": "Bb"
+        }
+      ],
+      "video": {
+        "serviceId": "Tnj5zi5bOns",
+        "clipId": "",
+        "chapters": []
+      },
+      "isPublished": true,
+      "seriesName": "Summer of Stewardship",
+      "seriesWeek": 3
+    },
+    {
+      "slug": "ogcma-sunday-june-14",
+      "weekNumber": 18,
+      "date": "2026-06-14",
+      "title": "OGCMA Sunday",
+      "scripture": "",
+      "speaker": "Nancy Ann Gillan",
+      "bigIdea": "Guest speaker from the Ocean Grove Camp Meeting Association.",
+      "heroTeaser": "A special message from the OGCMA community.",
+      "pullquote": {
+        "text": "A special message from the OGCMA community.",
+        "attribution": "Nancy Ann Gillan"
+      },
+      "outline": [],
+      "reflectionQuestions": [],
+      "conversationStarters": [],
+      "spiritualPractice": {
+        "title": "Coming soon",
+        "description": "Spiritual practice content will be generated for this week."
+      },
+      "songs": [
+        {
+          "title": "Awake My Soul",
+          "position": "Song 1",
+          "key": "F"
+        },
+        {
+          "title": "Jesus Does",
+          "position": "Song 2",
+          "key": "Gb"
+        },
+        {
+          "title": "Goodness Of God",
+          "position": "Song 3",
+          "key": "Ab"
+        },
+        {
+          "title": "Promises",
+          "position": "Song 4",
+          "key": "Bb"
+        },
+        {
+          "title": "Same God",
+          "position": "Song 5",
+          "key": "Db"
+        }
+      ],
+      "video": {
+        "serviceId": "p7yVVnaEMVs",
+        "clipId": "",
+        "chapters": []
+      },
+      "isPublished": true,
+      "seriesName": "Summer of Stewardship",
+      "seriesWeek": 4
+    },
+    {
+      "slug": "stewardship-of-encouragement",
+      "weekNumber": 19,
       "date": "2026-06-21",
       "title": "The Stewardship of Encouragement",
       "scripture": "1 Thessalonians 5:11; Hebrews 10:24\u201325",
@@ -62,15 +997,17 @@
       },
       "songs": [],
       "video": {
-        "serviceId": "",
+        "serviceId": "wDFybUYCO7w",
         "clipId": "",
         "chapters": []
       },
-      "isPublished": false
+      "isPublished": true,
+      "seriesName": "Summer of Stewardship",
+      "seriesWeek": 5
     },
     {
       "slug": "faithful-with-little",
-      "weekNumber": 2,
+      "weekNumber": 20,
       "date": "2026-06-28",
       "title": "Faithful With Little",
       "scripture": "Luke 16:10\u201313",
@@ -142,11 +1079,13 @@
         "clipId": "",
         "chapters": []
       },
-      "isPublished": false
+      "isPublished": false,
+      "seriesName": "Summer of Stewardship",
+      "seriesWeek": 6
     },
     {
       "slug": "rest-as-resistance",
-      "weekNumber": 3,
+      "weekNumber": 21,
       "date": "2026-07-05",
       "title": "Rest as Resistance",
       "scripture": "Matthew 11:28\u201330; Genesis 2:2\u20133",
@@ -218,11 +1157,13 @@
         "clipId": "",
         "chapters": []
       },
-      "isPublished": false
+      "isPublished": false,
+      "seriesName": "Summer of Stewardship",
+      "seriesWeek": 7
     },
     {
       "slug": "a-body-that-belongs",
-      "weekNumber": 4,
+      "weekNumber": 22,
       "date": "2026-07-12",
       "title": "A Body That Belongs",
       "scripture": "1 Corinthians 12:12\u201327",
@@ -294,11 +1235,13 @@
         "clipId": "",
         "chapters": []
       },
-      "isPublished": false
+      "isPublished": false,
+      "seriesName": "Summer of Stewardship",
+      "seriesWeek": 8
     },
     {
       "slug": "next-gen-courage",
-      "weekNumber": 5,
+      "weekNumber": 23,
       "date": "2026-07-19",
       "title": "Next-Gen Courage",
       "scripture": "1 Timothy 4:12; Joshua 1:9",
@@ -370,11 +1313,13 @@
         "clipId": "",
         "chapters": []
       },
-      "isPublished": false
+      "isPublished": false,
+      "seriesName": "Summer of Stewardship",
+      "seriesWeek": 9
     },
     {
       "slug": "hospitality-on-purpose",
-      "weekNumber": 6,
+      "weekNumber": 24,
       "date": "2026-07-26",
       "title": "Hospitality on Purpose",
       "scripture": "Luke 14:12\u201324; Romans 15:7",
@@ -446,11 +1391,13 @@
         "clipId": "",
         "chapters": []
       },
-      "isPublished": false
+      "isPublished": false,
+      "seriesName": "Summer of Stewardship",
+      "seriesWeek": 10
     },
     {
       "slug": "wonder-that-leads-to-worship",
-      "weekNumber": 7,
+      "weekNumber": 25,
       "date": "2026-08-02",
       "title": "Wonder That Leads to Worship",
       "scripture": "Psalm 19:1\u20136; John 1:14",
@@ -522,11 +1469,13 @@
         "clipId": "",
         "chapters": []
       },
-      "isPublished": false
+      "isPublished": false,
+      "seriesName": "Summer of Stewardship",
+      "seriesWeek": 11
     },
     {
       "slug": "unity-in-transition",
-      "weekNumber": 8,
+      "weekNumber": 26,
       "date": "2026-08-09",
       "title": "Unity in Transition",
       "scripture": "Ephesians 4:1\u20136",
@@ -598,11 +1547,13 @@
         "clipId": "",
         "chapters": []
       },
-      "isPublished": false
+      "isPublished": false,
+      "seriesName": "Summer of Stewardship",
+      "seriesWeek": 12
     },
     {
       "slug": "freedom-from-shame",
-      "weekNumber": 9,
+      "weekNumber": 27,
       "date": "2026-08-16",
       "title": "Freedom From Shame",
       "scripture": "Romans 8:1\u20134; John 8:1\u201311",
@@ -674,11 +1625,13 @@
         "clipId": "",
         "chapters": []
       },
-      "isPublished": false
+      "isPublished": false,
+      "seriesName": "Summer of Stewardship",
+      "seriesWeek": 13
     },
     {
       "slug": "stewardship-of-compassion",
-      "weekNumber": 10,
+      "weekNumber": 28,
       "date": "2026-08-23",
       "title": "The Stewardship of Compassion",
       "scripture": "Luke 10:25\u201337",
@@ -750,11 +1703,13 @@
         "clipId": "",
         "chapters": []
       },
-      "isPublished": false
+      "isPublished": false,
+      "seriesName": "Summer of Stewardship",
+      "seriesWeek": 14
     },
     {
       "slug": "a-generous-life",
-      "weekNumber": 11,
+      "weekNumber": 29,
       "date": "2026-08-30",
       "title": "A Generous Life",
       "scripture": "2 Corinthians 9:6\u201311",
@@ -826,11 +1781,13 @@
         "clipId": "",
         "chapters": []
       },
-      "isPublished": false
+      "isPublished": false,
+      "seriesName": "Summer of Stewardship",
+      "seriesWeek": 15
     },
     {
       "slug": "spirit-powered-everyday",
-      "weekNumber": 12,
+      "weekNumber": 30,
       "date": "2026-09-06",
       "title": "Spirit-Powered Everyday",
       "scripture": "Galatians 5:16\u201325; Acts 1:8",
@@ -902,11 +1859,13 @@
         "clipId": "",
         "chapters": []
       },
-      "isPublished": false
+      "isPublished": false,
+      "seriesName": "Summer of Stewardship",
+      "seriesWeek": 16
     },
     {
       "slug": "stewards-of-reconciliation",
-      "weekNumber": 13,
+      "weekNumber": 31,
       "date": "2026-09-13",
       "title": "Stewards of Reconciliation",
       "scripture": "2 Corinthians 5:17\u201321; Ephesians 2:14\u201318",
@@ -978,7 +1937,9 @@
         "clipId": "",
         "chapters": []
       },
-      "isPublished": false
+      "isPublished": false,
+      "seriesName": "Summer of Stewardship",
+      "seriesWeek": 17
     }
   ]
 }

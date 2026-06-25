@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stewarding the Hidden Places — May 31, 2026 · St. Paul's Ocean Grove Church</title>
+<meta name="description" content="Sunday Worship, Week 16 — Psalm 139:23–24; Luke 19:1–10. Watch, reflect, and go deeper with this week's message from Beach Church.">
+<meta property="og:title" content="Stewarding the Hidden Places — Beach Church">
+<meta property="og:description" content="Zacchaeus climbed a tree to see Jesus. Jesus looked up and saw everything Zacchaeus had been hiding.">
+<meta property="og:url" content="https://oceangrove.church/sundays/stewarding-the-hidden-places">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="St. Paul's Ocean Grove Church">
+<link rel="canonical" href="https://oceangrove.church/sundays/stewarding-the-hidden-places">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Karla:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+/* ═══ sunday.css ═══
+   Shared styles for all Sunday worship pages.
+   Part of the SPOGC design system.
+   Colors: Ink #0E2235 · Foam #F7F4ED · Sand #EDE6D8 · Tide #2E7E78 · Dawn #E0A458
+   Fonts: Fraunces (display) · Karla (body)
+*/
+
+:root {
+  --ink: #0E2235;
+  --ink-soft: #1B3A52;
+  --foam: #F7F4ED;
+  --sand: #EDE6D8;
+  --tide: #2E7E78;
+  --tide-light: #7FB8B2;
+  --dawn: #E0A458;
+  --drift: #7C7468;
+  --radius: 18px;
+  --maxw: 720px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: 'Karla', sans-serif; background: var(--foam); color: var(--ink); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+a { color: inherit; }
+.wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 20px; }
+.eyebrow { font-size: .74rem; letter-spacing: .18em; text-transform: uppercase; font-weight: 700; color: var(--tide); }
+.display { font-family: 'Fraunces', serif; font-optical-sizing: auto; line-height: 1.1; letter-spacing: -.01em; }
+
+/* ───── Nav ───── */
+nav { position: sticky; top: 0; z-index: 50; background: rgba(14,34,53,.92); backdrop-filter: blur(10px); color: var(--foam); }
+.nav-inner { max-width: 1120px; margin: 0 auto; padding: 14px 20px; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.logo { font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.05rem; text-decoration: none; letter-spacing: .01em; }
+.logo span { color: var(--dawn); }
+.nav-links { display: flex; gap: 18px; align-items: center; list-style: none; }
+.nav-links a { text-decoration: none; font-weight: 500; font-size: .9rem; opacity: .85; }
+.nav-links a:hover { opacity: 1; color: var(--dawn); }
+.nav-cta { background: var(--dawn); color: var(--ink); padding: .5em 1.1em; border-radius: 999px; font-weight: 700; text-decoration: none; font-size: .88rem; white-space: nowrap; }
+@media(max-width: 600px) { .nav-links { display: none; } }
+
+/* ───── Hero ───── */
+.sunday-hero { background: linear-gradient(178deg, #08141F 0%, #0E2235 40%, #16405C 75%, #2E7E78 105%); color: var(--foam); padding: 56px 0 48px; position: relative; overflow: hidden; }
+.series-badge { display: inline-flex; align-items: center; gap: 8px; background: rgba(224,164,88,.18); border: 1px solid rgba(224,164,88,.35); border-radius: 999px; padding: 6px 16px 6px 10px; font-size: .82rem; font-weight: 600; color: var(--dawn); margin-bottom: 18px; }
+.series-badge .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--dawn); }
+.sunday-hero h1 { font-size: clamp(2rem, 6vw, 3rem); font-weight: 500; margin-bottom: 14px; }
+.hero-meta { display: flex; flex-wrap: wrap; gap: 6px 20px; font-size: .92rem; opacity: .85; margin-bottom: 8px; }
+.hero-meta strong { font-weight: 600; }
+.scripture-ref { font-family: 'Fraunces', serif; font-size: 1.15rem; font-style: italic; color: var(--tide-light); margin-top: 16px; }
+.hero-teaser { font-size: 1.05rem; max-width: 48ch; opacity: .88; margin-top: 16px; line-height: 1.55; }
+.tideline { display: block; width: 100%; height: 50px; margin-top: -1px; }
+
+/* ───── Tunnel sections ───── */
+.tunnel-section { padding: 40px 0; }
+.tunnel-section + .tunnel-section { padding-top: 0; }
+.section-label { display: flex; align-items: center; gap: 10px; margin-bottom: 20px; }
+.section-label .num { width: 28px; height: 28px; border-radius: 50%; background: var(--tide); color: var(--foam); display: flex; align-items: center; justify-content: center; font-size: .72rem; font-weight: 700; }
+.section-label h2 { font-family: 'Fraunces', serif; font-size: 1.35rem; font-weight: 500; }
+
+/* ───── Video ───── */
+.video-wrap { position: relative; border-radius: var(--radius); overflow: hidden; background: var(--ink); aspect-ratio: 16/9; margin-bottom: 12px; }
+.video-wrap iframe { width: 100%; height: 100%; border: 0; }
+.video-placeholder { width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; color: var(--foam); gap: 10px; }
+.play-btn { width: 64px; height: 64px; border-radius: 50%; background: var(--dawn); display: flex; align-items: center; justify-content: center; font-size: 1.4rem; color: var(--ink); cursor: pointer; transition: transform .15s ease; }
+.play-btn:hover { transform: scale(1.08); }
+.video-caption { font-size: .85rem; color: var(--drift); text-align: center; }
+
+/* ───── Expandable cards ───── */
+.expand-group { display: flex; flex-direction: column; gap: 10px; }
+.expand-card { background: #fff; border: 1px solid var(--sand); border-radius: 14px; overflow: hidden; transition: box-shadow .2s ease; }
+.expand-card:hover { box-shadow: 0 4px 16px rgba(14,34,53,.06); }
+.expand-trigger { width: 100%; display: flex; align-items: center; justify-content: space-between; padding: 18px 20px; background: transparent; border: none; font-family: 'Karla', sans-serif; font-size: 1rem; font-weight: 600; color: var(--ink); cursor: pointer; text-align: left; gap: 12px; }
+.expand-trigger .icon-label { display: flex; align-items: center; gap: 10px; }
+.expand-trigger .card-icon { width: 36px; height: 36px; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 1rem; flex: none; }
+.expand-trigger .chevron { width: 20px; height: 20px; transition: transform .25s ease; flex: none; color: var(--drift); }
+.expand-card[open] .chevron { transform: rotate(180deg); }
+.expand-body { max-height: 0; overflow: hidden; transition: max-height .35s ease; }
+.expand-card[open] .expand-body { max-height: 3000px; }
+.expand-content { padding: 0 20px 22px; font-size: .95rem; line-height: 1.7; color: var(--ink-soft); }
+.expand-content p + p { margin-top: 12px; }
+
+/* ───── Scripture ───── */
+.scripture-block { background: var(--sand); border-radius: 12px; padding: 22px 20px; margin: 8px 0 4px; font-family: 'Fraunces', serif; font-size: 1.05rem; line-height: 1.75; color: var(--ink); }
+.scripture-block .verse-num { font-family: 'Karla', sans-serif; font-size: .72rem; font-weight: 700; color: var(--tide); vertical-align: super; margin-right: 2px; }
+.scripture-block .ref { display: block; font-family: 'Karla', sans-serif; font-size: .82rem; font-weight: 600; color: var(--drift); margin-top: 14px; text-align: right; }
+
+/* ───── Outline ───── */
+.outline-point { display: flex; gap: 14px; padding: 14px 0; }
+.outline-point + .outline-point { border-top: 1px solid var(--sand); }
+.outline-point .pt-num { font-family: 'Fraunces', serif; font-size: 1.6rem; font-weight: 600; color: var(--tide-light); line-height: 1; flex: none; width: 28px; }
+.outline-point strong { display: block; font-size: 1rem; color: var(--ink); margin-bottom: 4px; }
+.outline-point p { font-size: .92rem; color: var(--ink-soft); margin: 0; }
+
+/* ───── Reflection ───── */
+.question-list { list-style: none; display: flex; flex-direction: column; gap: 16px; }
+.question-list li { position: relative; padding-left: 22px; font-size: .95rem; color: var(--ink-soft); line-height: 1.55; }
+.question-list li::before { content: ''; position: absolute; left: 0; top: 8px; width: 10px; height: 10px; border-radius: 50%; border: 2px solid var(--tide-light); }
+
+/* ───── Practice ───── */
+.practice-card { background: linear-gradient(135deg, rgba(46,126,120,.08), rgba(224,164,88,.08)); border: 1px solid rgba(46,126,120,.2); border-radius: 14px; padding: 22px 20px; }
+.practice-card h4 { font-family: 'Fraunces', serif; font-weight: 500; font-size: 1.1rem; margin-bottom: 8px; color: var(--tide); }
+
+/* ───── Song tabs & lyrics ───── */
+.song-tab { display: flex; gap: 0; margin-bottom: 12px; border-bottom: 2px solid var(--sand); overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.song-tab button { padding: 10px 16px; background: transparent; border: none; font-family: 'Karla', sans-serif; font-size: .85rem; font-weight: 600; color: var(--drift); cursor: pointer; white-space: nowrap; border-bottom: 2px solid transparent; margin-bottom: -2px; transition: color .15s, border-color .15s; }
+.song-tab button.active, .song-tab button:hover { color: var(--tide); border-bottom-color: var(--tide); }
+.lyrics-block { background: var(--sand); border-radius: 12px; padding: 20px; font-size: .9rem; line-height: 1.65; color: var(--ink-soft); white-space: pre-line; }
+.lyrics-block .song-meta { font-size: .78rem; color: var(--drift); margin-top: 10px; padding-top: 10px; border-top: 1px solid rgba(124,116,104,.2); }
+
+/* ───── Pullquote ───── */
+.pullquote { background: var(--ink); color: var(--foam); border-radius: var(--radius); padding: 32px 28px; margin: 32px 0; position: relative; text-align: center; }
+.pullquote blockquote { font-family: 'Fraunces', serif; font-size: clamp(1.2rem, 3.5vw, 1.6rem); font-weight: 500; line-height: 1.35; font-style: italic; }
+.pullquote .pq-meta { font-size: .82rem; margin-top: 14px; opacity: .7; }
+.pullquote .share-row { display: flex; justify-content: center; gap: 10px; margin-top: 18px; }
+.share-pill { display: inline-flex; align-items: center; gap: 6px; padding: 8px 14px; border-radius: 999px; font-size: .8rem; font-weight: 600; text-decoration: none; cursor: pointer; border: none; font-family: 'Karla', sans-serif; transition: transform .12s; }
+.share-pill:hover { transform: translateY(-1px); }
+.share-pill.sp-text { background: rgba(46,126,120,.35); color: var(--foam); }
+.share-pill.sp-copy { background: rgba(247,244,237,.15); color: var(--foam); border: 1px solid rgba(247,244,237,.25); }
+.share-pill.sp-ig { background: rgba(224,164,88,.25); color: var(--dawn); }
+
+/* ───── Chapters ───── */
+.chapter-list { display: flex; flex-direction: column; }
+.chapter-item { display: flex; align-items: center; gap: 14px; padding: 14px 0; text-decoration: none; color: var(--ink); transition: color .12s; }
+.chapter-item + .chapter-item { border-top: 1px solid var(--sand); }
+.chapter-item:hover { color: var(--tide); }
+.chapter-item .ts { font-size: .82rem; font-weight: 700; color: var(--tide); width: 48px; flex: none; font-variant-numeric: tabular-nums; }
+.chapter-item .ch-title { font-weight: 500; font-size: .95rem; }
+
+/* ───── Connect strip ───── */
+.connect-strip { background: var(--ink); color: var(--foam); padding: 48px 0; }
+.connect-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 16px; }
+.connect-card { background: rgba(247,244,237,.06); border: 1px solid rgba(247,244,237,.14); border-radius: 14px; padding: 22px 18px; text-align: center; text-decoration: none; color: var(--foam); transition: transform .15s, background .15s; }
+.connect-card:hover { transform: translateY(-3px); background: rgba(247,244,237,.1); }
+.connect-card .cc-icon { font-size: 1.5rem; margin-bottom: 8px; }
+.connect-card strong { display: block; font-size: .92rem; margin-bottom: 4px; }
+.connect-card span { font-size: .78rem; opacity: .65; }
+
+/* ───── Invite ───── */
+.invite-final { padding: 48px 0 56px; text-align: center; background: linear-gradient(180deg, var(--foam) 0%, var(--sand) 100%); }
+.invite-final h2 { font-size: clamp(1.5rem, 4vw, 2rem); font-weight: 500; margin-bottom: 8px; }
+.invite-final p { color: var(--drift); font-size: 1rem; max-width: 36ch; margin: 0 auto 24px; }
+.invite-actions { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
+.btn { display: inline-flex; align-items: center; gap: .5em; font-weight: 700; font-size: .95rem; padding: .85em 1.5em; border-radius: 999px; text-decoration: none; border: none; cursor: pointer; font-family: 'Karla', sans-serif; transition: transform .12s ease; }
+.btn:hover { transform: translateY(-2px); }
+.btn:focus-visible { outline: 3px solid var(--dawn); outline-offset: 3px; }
+.btn-dawn { background: var(--dawn); color: var(--ink); }
+.btn-ink { background: var(--ink); color: var(--foam); }
+.btn-ghost-dark { background: transparent; color: var(--ink); box-shadow: inset 0 0 0 2px rgba(14,34,53,.25); }
+
+/* ───── Social ───── */
+.social-bar { display: flex; justify-content: center; gap: 14px; padding: 20px 0 0; }
+.social-link { display: flex; align-items: center; gap: 6px; font-size: .85rem; font-weight: 600; color: var(--tide); text-decoration: none; }
+.social-link:hover { color: var(--dawn); }
+.social-link svg { width: 20px; height: 20px; }
+
+/* ───── Week nav ───── */
+.week-nav { display: flex; justify-content: space-between; padding: 24px 0 0; border-top: 1px solid var(--sand); margin-top: 8px; }
+.week-nav a { font-size: .88rem; font-weight: 600; color: var(--tide); text-decoration: none; }
+.week-nav a:hover { color: var(--dawn); }
+.week-nav .disabled { opacity: .35; pointer-events: none; }
+
+/* ───── Progress dots ───── */
+.tunnel-progress { position: fixed; right: 16px; top: 50%; transform: translateY(-50%); display: flex; flex-direction: column; gap: 10px; z-index: 40; }
+.tunnel-progress .prog-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--sand); border: 2px solid var(--drift); transition: all .2s; cursor: pointer; }
+.tunnel-progress .prog-dot.active { background: var(--dawn); border-color: var(--dawn); transform: scale(1.3); }
+@media(max-width: 600px) { .tunnel-progress { display: none; } }
+
+/* ───── Print link ───── */
+.print-link { display: inline-flex; align-items: center; gap: 6px; font-size: .85rem; color: var(--drift); text-decoration: none; padding: 8px 0; }
+.print-link:hover { color: var(--tide); }
+
+/* ───── Footer ───── */
+footer { background: var(--ink); color: var(--foam); padding: 36px 0 28px; text-align: center; }
+footer .foot-logo { font-family: 'Fraunces', serif; font-size: 1.1rem; font-weight: 500; margin-bottom: 6px; }
+footer .foot-logo span { color: var(--dawn); }
+footer .foot-detail { font-size: .85rem; opacity: .7; margin-bottom: 16px; }
+footer .foot-links { display: flex; justify-content: center; gap: 20px; list-style: none; font-size: .85rem; }
+footer .foot-links a { text-decoration: none; opacity: .75; }
+footer .foot-links a:hover { opacity: 1; color: var(--dawn); }
+footer .foot-bottom { margin-top: 22px; padding-top: 16px; border-top: 1px solid rgba(247,244,237,.1); font-size: .78rem; opacity: .5; }
+
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="logo" href="/">St. Paul's <span>Ocean Grove</span></a>
+    <ul class="nav-links">
+      <li><a href="/start-here">Visit</a></li>
+      <li><a href="/sundays" style="color:var(--dawn)">Sundays</a></li>
+      <li><a href="/connect">Connect</a></li>
+      <li><a href="/give">Give</a></li>
+    </ul>
+    <a class="nav-cta" href="/start-here">Plan a Visit</a>
+  </div>
+</nav>
+
+<div class="tunnel-progress" aria-label="Page sections">
+  <div class="prog-dot active" data-section="hero" title="Top"></div>
+  <div class="prog-dot" data-section="taste" title="Watch"></div>
+  <div class="prog-dot" data-section="message" title="Message"></div>
+  <div class="prog-dot" data-section="deeper" title="Go deeper"></div>
+  <div class="prog-dot" data-section="connect-section" title="Connect"></div>
+  <div class="prog-dot" data-section="invite-section" title="Share"></div>
+</div>
+
+<!-- ═══ HERO ═══ -->
+<header class="sunday-hero" id="hero">
+  <div class="wrap">
+    <div class="series-badge"><div class="dot"></div>Summer of Stewardship · Week 2</div>
+    <h1 class="display">Stewarding the Hidden Places</h1>
+    <div class="hero-meta">
+      <span><strong>May 31, 2026</strong></span>
+      <span>Beach Church · 9 AM</span>
+      <span>Pastor Joe Tiedemann</span>
+    </div>
+    <div class="scripture-ref">Psalm 139:23–24; Luke 19:1–10</div>
+    <p class="hero-teaser">Zacchaeus climbed a tree to see Jesus. Jesus looked up and saw everything Zacchaeus had been hiding.</p>
+  </div>
+</header>
+
+<svg class="tideline" viewBox="0 0 1440 50" preserveAspectRatio="none" aria-hidden="true">
+  <path d="M0,25 C240,50 480,0 720,25 C960,50 1200,5 1440,30 L1440,0 L0,0 Z" fill="#0E2235" opacity="0.15"/>
+  <path d="M0,30 C260,55 520,5 760,28 C1000,50 1240,8 1440,35 L1440,0 L0,0 Z" fill="#0E2235"/>
+</svg>
+
+<!-- ═══ STAGE 1: THE TASTE ═══ -->
+<section class="tunnel-section" id="taste">
+  <div class="wrap">
+    <div class="section-label">
+      <div class="num">1</div>
+      <h2>60 seconds</h2>
+    </div>
+    <div class="video-wrap">
+      <div class="video-placeholder">
+    <div class="play-btn" aria-label="Video coming soon">▶</div>
+    <span style="font-size:.85rem;opacity:.7">The strongest 60 seconds from Sunday</span>
+  </div>
+    </div>
+    <p class="video-caption">Short clip · share-ready</p>
+  </div>
+</section>
+
+<!-- ═══ SHAREABLE PULLQUOTE ═══ -->
+<div class="wrap">
+  <div class="pullquote">
+    <blockquote>"Zacchaeus climbed a tree to see Jesus. Jesus looked up and saw everything Zacchaeus had been hiding."</blockquote>
+    <div class="pq-meta">— Pastor Joe Tiedemann · May 31</div>
+    <div class="share-row">
+      <button class="share-pill sp-text" onclick="shareQuoteText()" aria-label="Share via text">💬 Text</button>
+      <button class="share-pill sp-copy" onclick="copyQuote()" aria-label="Copy quote">📋 Copy</button>
+      <button class="share-pill sp-ig" aria-label="Share to stories">📸 Story</button>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ STAGE 2: THE MESSAGE ═══ -->
+<section class="tunnel-section" id="message">
+  <div class="wrap">
+    <div class="section-label">
+      <div class="num">2</div>
+      <h2>The message</h2>
+    </div>
+
+    <div class="video-wrap" style="margin-bottom:20px">
+      <iframe src="https://www.youtube.com/embed/_MEUQoHQ8R4?rel=0" 
+      title="Full sermon · &quot;Stewarding the Hidden Places&quot;" frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen loading="lazy"></iframe>
+    </div>
+
+    <div class="expand-group">
+      <div class="expand-card" id="card-scripture">
+        <button class="expand-trigger" onclick="toggleCard('card-scripture')" aria-expanded="false">
+          <span class="icon-label">
+            <span class="card-icon" style="background:rgba(46,126,120,.12);color:var(--tide)">📖</span>
+            Read the passage — Psalm 139:23–24; Luke 19:1–10
+          </span>
+          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="expand-body">
+          <div class="expand-content">
+            <div class="scripture-block">
+              <em>Scripture text will be populated from the Bible API or manual entry.</em>
+              <span class="ref">Psalm 139:23–24; Luke 19:1–10</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="expand-card" id="card-outline">
+        <button class="expand-trigger" onclick="toggleCard('card-outline')" aria-expanded="false">
+          <span class="icon-label">
+            <span class="card-icon" style="background:rgba(224,164,88,.12);color:var(--dawn)">📝</span>
+            Message outline
+          </span>
+          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="expand-body">
+          <div class="expand-content">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ STAGE 3: GO DEEPER ═══ -->
+<section class="tunnel-section" id="deeper">
+  <div class="wrap">
+    <div class="section-label">
+      <div class="num">3</div>
+      <h2>Go deeper</h2>
+    </div>
+
+    <div class="expand-group">
+      <div class="expand-card" id="card-reflect">
+        <button class="expand-trigger" onclick="toggleCard('card-reflect')" aria-expanded="false">
+          <span class="icon-label">
+            <span class="card-icon" style="background:rgba(46,126,120,.12);color:var(--tide)">💭</span>
+            Reflection questions
+          </span>
+          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="expand-body">
+          <div class="expand-content">
+            <ul class="question-list">
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="expand-card" id="card-convo">
+        <button class="expand-trigger" onclick="toggleCard('card-convo')" aria-expanded="false">
+          <span class="icon-label">
+            <span class="card-icon" style="background:rgba(224,164,88,.12);color:var(--dawn)">🗣️</span>
+            Conversation starters
+          </span>
+          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="expand-body">
+          <div class="expand-content">
+            <p><strong>For a small group or over coffee:</strong></p>
+            <ul class="question-list">
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="expand-card" id="card-practice">
+        <button class="expand-trigger" onclick="toggleCard('card-practice')" aria-expanded="false">
+          <span class="icon-label">
+            <span class="card-icon" style="background:rgba(46,126,120,.12);color:var(--tide)">🌊</span>
+            Practice for the week
+          </span>
+          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="expand-body">
+          <div class="expand-content">
+            <div class="practice-card">
+              <h4>Coming soon</h4>
+              <p>Spiritual practice content will be generated for this week.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="expand-card" id="card-lyrics">
+        <button class="expand-trigger" onclick="toggleCard('card-lyrics')" aria-expanded="false">
+          <span class="icon-label">
+            <span class="card-icon" style="background:rgba(14,34,53,.08);color:var(--ink)">🎵</span>
+            Worship lyrics
+          </span>
+          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="expand-body">
+          <div class="expand-content">
+            <div class="song-tab" role="tablist">
+              <button class="active" onclick="showSong(0, this)" role="tab">Honey In The Rock</button>
+              <button onclick="showSong(1, this)" role="tab">God So Loved (Studio Version)</button>
+              <button onclick="showSong(2, this)" role="tab">Make Room</button>
+              <button onclick="showSong(3, this)" role="tab">Trust In You</button>
+              <button onclick="showSong(4, this)" role="tab">Already Done</button>
+            </div>
+            <div class="lyrics-block" id="lyrics-display">
+              <em>Lyrics loaded from CCLI SongSelect via NocoDB.</em>
+              <div class="song-meta">CCLI License · Lyrics used by permission</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top:20px;display:flex;gap:20px;flex-wrap:wrap;align-items:center;">
+      <a class="print-link" href="/sundays/stewarding-the-hidden-places-print.pdf">🖨️ Printable study guide</a>
+      <a class="print-link" href="https://open.spotify.com/show/PLACEHOLDER">🎧 Listen on podcast</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FULL SERVICE ═══ -->
+<section class="tunnel-section" style="padding-bottom:0">
+  <div class="wrap">
+    <div class="expand-card" id="card-fullservice">
+      <button class="expand-trigger" onclick="toggleCard('card-fullservice')" aria-expanded="false">
+        <span class="icon-label">
+          <span class="card-icon" style="background:rgba(14,34,53,.08);color:var(--ink)">📺</span>
+          Watch the full worship service
+        </span>
+        <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
+      </button>
+      <div class="expand-body">
+        <div class="expand-content">
+          <div class="video-wrap" style="margin-bottom:16px">
+            <iframe src="https://www.youtube.com/embed/_MEUQoHQ8R4?rel=0" 
+      title="Full worship service" frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen loading="lazy"></iframe>
+          </div>
+          <p style="font-weight:600;margin-bottom:10px;">Jump to a section:</p>
+          <div class="chapter-list">
+            <a class="chapter-item" href="#"><span class="ts">0:00</span><span class="ch-title">Welcome &amp; gathering</span></a>
+            <a class="chapter-item" href="#"><span class="ts">3:00</span><span class="ch-title">Opening worship — &quot;Honey In The Rock&quot;</span></a>
+            <a class="chapter-item" href="#"><span class="ts">8:00</span><span class="ch-title">&quot;God So Loved (Studio Version)&quot;</span></a>
+            <a class="chapter-item" href="#"><span class="ts">14:00</span><span class="ch-title">&quot;Make Room&quot;</span></a>
+            <a class="chapter-item" href="#"><span class="ts">20:00</span><span class="ch-title">Scripture reading — Psalm 139:23–24; Luke 19:1–10</span></a>
+            <a class="chapter-item" href="#"><span class="ts">22:00</span><span class="ch-title">Message — &quot;Stewarding the Hidden Places&quot;</span></a>
+            <a class="chapter-item" href="#"><span class="ts">44:00</span><span class="ch-title">Offering — &quot;Trust In You&quot;</span></a>
+            <a class="chapter-item" href="#"><span class="ts">49:00</span><span class="ch-title">Closing — &quot;Already Done&quot;</span></a>
+            <a class="chapter-item" href="#"><span class="ts">53:00</span><span class="ch-title">Benediction &amp; sending</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CONNECT ═══ -->
+<section class="connect-strip" id="connect-section">
+  <div class="wrap">
+    <div style="text-align:center;margin-bottom:24px;">
+      <div class="eyebrow" style="color:var(--tide-light)">Take a step</div>
+    </div>
+    <div class="connect-grid">
+      <a class="connect-card" href="https://oceangrove.church/beach-club">
+        <div class="cc-icon">🏖️</div>
+        <strong>Beach Club</strong>
+        <span>Summer email + merch</span>
+      </a>
+      <a class="connect-card" href="https://oceangrove.church/prayer">
+        <div class="cc-icon">🙏</div>
+        <strong>Prayer</strong>
+        <span>Submit a request</span>
+      </a>
+      <a class="connect-card" href="https://tithe.ly/give?c=6834905">
+        <div class="cc-icon">💛</div>
+        <strong>Give</strong>
+        <span>Support this ministry</span>
+      </a>
+      <a class="connect-card" href="https://oceangrove.church/start-here">
+        <div class="cc-icon">👋</div>
+        <strong>I'm New</strong>
+        <span>Start here</span>
+      </a>
+      <a class="connect-card" href="#">
+        <div class="cc-icon">📱</div>
+        <strong>Get Texts</strong>
+        <span>Weekly update</span>
+      </a>
+      <a class="connect-card" href="https://oceangrove.church/five-mornings">
+        <div class="cc-icon">📖</div>
+        <strong>Free Devotional</strong>
+        <span>Five Mornings by the Sea</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ INVITE ═══ -->
+<section class="invite-final" id="invite-section">
+  <div class="wrap">
+    <h2 class="display">Something here worth sharing?</h2>
+    <p>If this landed for you, it might land for someone else too. Ten seconds to send.</p>
+    <div class="invite-actions">
+      <button class="btn btn-dawn" onclick="sharePageText()">💬 Text a friend</button>
+      <button class="btn btn-ink" onclick="sharePage()">📤 Share this page</button>
+      <button class="btn btn-ghost-dark" onclick="copyLink()">🔗 Copy link</button>
+    </div>
+    <div class="social-bar">
+      <a class="social-link" href="https://instagram.com/oceangrovechurch" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+        Follow
+      </a>
+      <a class="social-link" href="https://youtube.com/@oceangrovechurch" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 00-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 00.5 6.2 31 31 0 000 12a31 31 0 00.5 5.8 3 3 0 002.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 002.1-2.1A31 31 0 0024 12a31 31 0 00-.5-5.8zM9.5 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>
+        Subscribe
+      </a>
+      <a class="social-link" href="https://facebook.com/OceanGroveChurch" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12a12 12 0 10-13.9 11.9v-8.4H7v-3.5h3.1V9.4c0-3.1 1.8-4.8 4.6-4.8 1.3 0 2.7.2 2.7.2v3h-1.5c-1.5 0-2 .9-2 1.9V12h3.4l-.5 3.5h-2.8v8.4A12 12 0 0024 12z"/></svg>
+        Like
+      </a>
+    </div>
+
+    <div class="week-nav">
+      <a href="/sundays/owned-by-love">← Owned by Love</a>
+      <a href="/sundays/grace-you-can-practice">Grace You Can Practice →</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-logo">St. Paul's <span>Ocean Grove</span> Church</div>
+    <div class="foot-detail">Sundays · 9:00 AM · Beach Church at the Boardwalk Pavilion</div>
+    <ul class="foot-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/start-here">Visit</a></li>
+      <li><a href="/sundays">All Sundays</a></li>
+      <li><a href="/connect">Connect</a></li>
+      <li><a href="/give">Give</a></li>
+    </ul>
+    <div class="foot-bottom">© 2026 St. Paul's Ocean Grove Church · A United Methodist Congregation</div>
+  </div>
+</footer>
+
+<script>
+  // Accordion
+  function toggleCard(id) {
+    const card = document.getElementById(id);
+    const trigger = card.querySelector('.expand-trigger');
+    if (card.hasAttribute('open')) {
+      card.removeAttribute('open');
+      trigger.setAttribute('aria-expanded', 'false');
+    } else {
+      card.setAttribute('open', '');
+      trigger.setAttribute('aria-expanded', 'true');
+    }
+  }
+
+  // Songs
+  const songData = [{"title":"Honey In The Rock","position":"Song 1","key":"D"},{"title":"God So Loved (Studio Version)","position":"Song 2","key":"F"},{"title":"Make Room","position":"Song 3","key":"A"},{"title":"Trust In You","position":"Song 4","key":"A"},{"title":"Already Done","position":"Song 5","key":"Eb"}];
+  function showSong(index, btn) {
+    document.querySelectorAll('.song-tab button').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    if (songData[index]) {
+      const s = songData[index];
+      document.getElementById('lyrics-display').innerHTML = 
+        '<em>"' + s.title + '" (Key of ' + s.key + ') — ' + s.position + '</em>\n\nLyrics loaded from NocoDB Songs table.\n<div class="song-meta">CCLI License · Lyrics used by permission</div>';
+    }
+  }
+
+  // Share
+  const pageUrl = 'https://oceangrove.church/sundays/stewarding-the-hidden-places';
+  const pageTitle = 'Stewarding the Hidden Places — Beach Church';
+  const shareMsg = 'Hey — I heard something at Beach Church that stayed with me. It\'s called \"Stewarding the Hidden Places\" and it\'s about zacchaeus climbed a tree to see jesus. jesus looked up and saw everything zacchaeus had been hiding.. Worth a listen: https://oceangrove.church/sundays/stewarding-the-hidden-places';
+  const quoteText = '"Zacchaeus climbed a tree to see Jesus. Jesus looked up and saw everything Zacchaeus had been hiding." — Pastor Joe Tiedemann, Beach Church\nhttps://oceangrove.church/sundays/stewarding-the-hidden-places';
+
+  function sharePageText() {
+    if (navigator.share) { navigator.share({ text: shareMsg }); }
+    else { window.open('sms:?body=' + encodeURIComponent(shareMsg)); }
+  }
+  function sharePage() {
+    if (navigator.share) { navigator.share({ title: pageTitle, text: 'Zacchaeus climbed a tree to see Jesus. Jesus looked up and saw everything Zacchaeus had been hiding.', url: pageUrl }); }
+  }
+  function copyLink() {
+    navigator.clipboard.writeText(pageUrl);
+    showToast('Link copied');
+  }
+  function shareQuoteText() {
+    if (navigator.share) { navigator.share({ text: quoteText }); }
+    else { window.open('sms:?body=' + encodeURIComponent(quoteText)); }
+  }
+  function copyQuote() {
+    navigator.clipboard.writeText(quoteText);
+    showToast('Quote copied');
+  }
+  function showToast(msg) {
+    const t = document.createElement('div');
+    t.textContent = msg;
+    t.style.cssText = 'position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#0E2235;color:#F7F4ED;padding:12px 24px;border-radius:999px;font-weight:600;font-size:.9rem;z-index:99;';
+    document.body.appendChild(t);
+    setTimeout(() => t.remove(), 2000);
+  }
+
+  // Scroll spy for progress dots
+  const sections = ['hero','taste','message','deeper','connect-section','invite-section'];
+  const dots = document.querySelectorAll('.prog-dot');
+  dots.forEach((dot, i) => dot.addEventListener('click', () => {
+    document.getElementById(sections[i])?.scrollIntoView({ behavior: 'smooth' });
+  }));
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const idx = sections.indexOf(entry.target.id);
+        dots.forEach((d, i) => d.classList.toggle('active', i === idx));
+      }
+    });
+  }, { threshold: 0.3 });
+  sections.forEach(id => { const el = document.getElementById(id); if (el) observer.observe(el); });
+</script>
+
+</body>
+</html>

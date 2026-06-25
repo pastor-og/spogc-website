@@ -3,11 +3,191 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sundays — Summer of Stewardship · St. Paul's Ocean Grove Church</title>
-<meta name="description" content="Watch, read, and reflect on every message from Beach Church's Summer of Stewardship series. Summer 2026.">
+<title>Sundays — Sunday Worship · St. Paul's Ocean Grove Church</title>
+<meta name="description" content="Watch, read, and reflect on every message from Beach Church's Sunday Worship series. Summer 2026.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/sunday.css">
+<style>
+/* ═══ sunday.css ═══
+   Shared styles for all Sunday worship pages.
+   Part of the SPOGC design system.
+   Colors: Ink #0E2235 · Foam #F7F4ED · Sand #EDE6D8 · Tide #2E7E78 · Dawn #E0A458
+   Fonts: Fraunces (display) · Karla (body)
+*/
+
+:root {
+  --ink: #0E2235;
+  --ink-soft: #1B3A52;
+  --foam: #F7F4ED;
+  --sand: #EDE6D8;
+  --tide: #2E7E78;
+  --tide-light: #7FB8B2;
+  --dawn: #E0A458;
+  --drift: #7C7468;
+  --radius: 18px;
+  --maxw: 720px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: 'Karla', sans-serif; background: var(--foam); color: var(--ink); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+a { color: inherit; }
+.wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 20px; }
+.eyebrow { font-size: .74rem; letter-spacing: .18em; text-transform: uppercase; font-weight: 700; color: var(--tide); }
+.display { font-family: 'Fraunces', serif; font-optical-sizing: auto; line-height: 1.1; letter-spacing: -.01em; }
+
+/* ───── Nav ───── */
+nav { position: sticky; top: 0; z-index: 50; background: rgba(14,34,53,.92); backdrop-filter: blur(10px); color: var(--foam); }
+.nav-inner { max-width: 1120px; margin: 0 auto; padding: 14px 20px; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.logo { font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.05rem; text-decoration: none; letter-spacing: .01em; }
+.logo span { color: var(--dawn); }
+.nav-links { display: flex; gap: 18px; align-items: center; list-style: none; }
+.nav-links a { text-decoration: none; font-weight: 500; font-size: .9rem; opacity: .85; }
+.nav-links a:hover { opacity: 1; color: var(--dawn); }
+.nav-cta { background: var(--dawn); color: var(--ink); padding: .5em 1.1em; border-radius: 999px; font-weight: 700; text-decoration: none; font-size: .88rem; white-space: nowrap; }
+@media(max-width: 600px) { .nav-links { display: none; } }
+
+/* ───── Hero ───── */
+.sunday-hero { background: linear-gradient(178deg, #08141F 0%, #0E2235 40%, #16405C 75%, #2E7E78 105%); color: var(--foam); padding: 56px 0 48px; position: relative; overflow: hidden; }
+.series-badge { display: inline-flex; align-items: center; gap: 8px; background: rgba(224,164,88,.18); border: 1px solid rgba(224,164,88,.35); border-radius: 999px; padding: 6px 16px 6px 10px; font-size: .82rem; font-weight: 600; color: var(--dawn); margin-bottom: 18px; }
+.series-badge .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--dawn); }
+.sunday-hero h1 { font-size: clamp(2rem, 6vw, 3rem); font-weight: 500; margin-bottom: 14px; }
+.hero-meta { display: flex; flex-wrap: wrap; gap: 6px 20px; font-size: .92rem; opacity: .85; margin-bottom: 8px; }
+.hero-meta strong { font-weight: 600; }
+.scripture-ref { font-family: 'Fraunces', serif; font-size: 1.15rem; font-style: italic; color: var(--tide-light); margin-top: 16px; }
+.hero-teaser { font-size: 1.05rem; max-width: 48ch; opacity: .88; margin-top: 16px; line-height: 1.55; }
+.tideline { display: block; width: 100%; height: 50px; margin-top: -1px; }
+
+/* ───── Tunnel sections ───── */
+.tunnel-section { padding: 40px 0; }
+.tunnel-section + .tunnel-section { padding-top: 0; }
+.section-label { display: flex; align-items: center; gap: 10px; margin-bottom: 20px; }
+.section-label .num { width: 28px; height: 28px; border-radius: 50%; background: var(--tide); color: var(--foam); display: flex; align-items: center; justify-content: center; font-size: .72rem; font-weight: 700; }
+.section-label h2 { font-family: 'Fraunces', serif; font-size: 1.35rem; font-weight: 500; }
+
+/* ───── Video ───── */
+.video-wrap { position: relative; border-radius: var(--radius); overflow: hidden; background: var(--ink); aspect-ratio: 16/9; margin-bottom: 12px; }
+.video-wrap iframe { width: 100%; height: 100%; border: 0; }
+.video-placeholder { width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; color: var(--foam); gap: 10px; }
+.play-btn { width: 64px; height: 64px; border-radius: 50%; background: var(--dawn); display: flex; align-items: center; justify-content: center; font-size: 1.4rem; color: var(--ink); cursor: pointer; transition: transform .15s ease; }
+.play-btn:hover { transform: scale(1.08); }
+.video-caption { font-size: .85rem; color: var(--drift); text-align: center; }
+
+/* ───── Expandable cards ───── */
+.expand-group { display: flex; flex-direction: column; gap: 10px; }
+.expand-card { background: #fff; border: 1px solid var(--sand); border-radius: 14px; overflow: hidden; transition: box-shadow .2s ease; }
+.expand-card:hover { box-shadow: 0 4px 16px rgba(14,34,53,.06); }
+.expand-trigger { width: 100%; display: flex; align-items: center; justify-content: space-between; padding: 18px 20px; background: transparent; border: none; font-family: 'Karla', sans-serif; font-size: 1rem; font-weight: 600; color: var(--ink); cursor: pointer; text-align: left; gap: 12px; }
+.expand-trigger .icon-label { display: flex; align-items: center; gap: 10px; }
+.expand-trigger .card-icon { width: 36px; height: 36px; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 1rem; flex: none; }
+.expand-trigger .chevron { width: 20px; height: 20px; transition: transform .25s ease; flex: none; color: var(--drift); }
+.expand-card[open] .chevron { transform: rotate(180deg); }
+.expand-body { max-height: 0; overflow: hidden; transition: max-height .35s ease; }
+.expand-card[open] .expand-body { max-height: 3000px; }
+.expand-content { padding: 0 20px 22px; font-size: .95rem; line-height: 1.7; color: var(--ink-soft); }
+.expand-content p + p { margin-top: 12px; }
+
+/* ───── Scripture ───── */
+.scripture-block { background: var(--sand); border-radius: 12px; padding: 22px 20px; margin: 8px 0 4px; font-family: 'Fraunces', serif; font-size: 1.05rem; line-height: 1.75; color: var(--ink); }
+.scripture-block .verse-num { font-family: 'Karla', sans-serif; font-size: .72rem; font-weight: 700; color: var(--tide); vertical-align: super; margin-right: 2px; }
+.scripture-block .ref { display: block; font-family: 'Karla', sans-serif; font-size: .82rem; font-weight: 600; color: var(--drift); margin-top: 14px; text-align: right; }
+
+/* ───── Outline ───── */
+.outline-point { display: flex; gap: 14px; padding: 14px 0; }
+.outline-point + .outline-point { border-top: 1px solid var(--sand); }
+.outline-point .pt-num { font-family: 'Fraunces', serif; font-size: 1.6rem; font-weight: 600; color: var(--tide-light); line-height: 1; flex: none; width: 28px; }
+.outline-point strong { display: block; font-size: 1rem; color: var(--ink); margin-bottom: 4px; }
+.outline-point p { font-size: .92rem; color: var(--ink-soft); margin: 0; }
+
+/* ───── Reflection ───── */
+.question-list { list-style: none; display: flex; flex-direction: column; gap: 16px; }
+.question-list li { position: relative; padding-left: 22px; font-size: .95rem; color: var(--ink-soft); line-height: 1.55; }
+.question-list li::before { content: ''; position: absolute; left: 0; top: 8px; width: 10px; height: 10px; border-radius: 50%; border: 2px solid var(--tide-light); }
+
+/* ───── Practice ───── */
+.practice-card { background: linear-gradient(135deg, rgba(46,126,120,.08), rgba(224,164,88,.08)); border: 1px solid rgba(46,126,120,.2); border-radius: 14px; padding: 22px 20px; }
+.practice-card h4 { font-family: 'Fraunces', serif; font-weight: 500; font-size: 1.1rem; margin-bottom: 8px; color: var(--tide); }
+
+/* ───── Song tabs & lyrics ───── */
+.song-tab { display: flex; gap: 0; margin-bottom: 12px; border-bottom: 2px solid var(--sand); overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.song-tab button { padding: 10px 16px; background: transparent; border: none; font-family: 'Karla', sans-serif; font-size: .85rem; font-weight: 600; color: var(--drift); cursor: pointer; white-space: nowrap; border-bottom: 2px solid transparent; margin-bottom: -2px; transition: color .15s, border-color .15s; }
+.song-tab button.active, .song-tab button:hover { color: var(--tide); border-bottom-color: var(--tide); }
+.lyrics-block { background: var(--sand); border-radius: 12px; padding: 20px; font-size: .9rem; line-height: 1.65; color: var(--ink-soft); white-space: pre-line; }
+.lyrics-block .song-meta { font-size: .78rem; color: var(--drift); margin-top: 10px; padding-top: 10px; border-top: 1px solid rgba(124,116,104,.2); }
+
+/* ───── Pullquote ───── */
+.pullquote { background: var(--ink); color: var(--foam); border-radius: var(--radius); padding: 32px 28px; margin: 32px 0; position: relative; text-align: center; }
+.pullquote blockquote { font-family: 'Fraunces', serif; font-size: clamp(1.2rem, 3.5vw, 1.6rem); font-weight: 500; line-height: 1.35; font-style: italic; }
+.pullquote .pq-meta { font-size: .82rem; margin-top: 14px; opacity: .7; }
+.pullquote .share-row { display: flex; justify-content: center; gap: 10px; margin-top: 18px; }
+.share-pill { display: inline-flex; align-items: center; gap: 6px; padding: 8px 14px; border-radius: 999px; font-size: .8rem; font-weight: 600; text-decoration: none; cursor: pointer; border: none; font-family: 'Karla', sans-serif; transition: transform .12s; }
+.share-pill:hover { transform: translateY(-1px); }
+.share-pill.sp-text { background: rgba(46,126,120,.35); color: var(--foam); }
+.share-pill.sp-copy { background: rgba(247,244,237,.15); color: var(--foam); border: 1px solid rgba(247,244,237,.25); }
+.share-pill.sp-ig { background: rgba(224,164,88,.25); color: var(--dawn); }
+
+/* ───── Chapters ───── */
+.chapter-list { display: flex; flex-direction: column; }
+.chapter-item { display: flex; align-items: center; gap: 14px; padding: 14px 0; text-decoration: none; color: var(--ink); transition: color .12s; }
+.chapter-item + .chapter-item { border-top: 1px solid var(--sand); }
+.chapter-item:hover { color: var(--tide); }
+.chapter-item .ts { font-size: .82rem; font-weight: 700; color: var(--tide); width: 48px; flex: none; font-variant-numeric: tabular-nums; }
+.chapter-item .ch-title { font-weight: 500; font-size: .95rem; }
+
+/* ───── Connect strip ───── */
+.connect-strip { background: var(--ink); color: var(--foam); padding: 48px 0; }
+.connect-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 16px; }
+.connect-card { background: rgba(247,244,237,.06); border: 1px solid rgba(247,244,237,.14); border-radius: 14px; padding: 22px 18px; text-align: center; text-decoration: none; color: var(--foam); transition: transform .15s, background .15s; }
+.connect-card:hover { transform: translateY(-3px); background: rgba(247,244,237,.1); }
+.connect-card .cc-icon { font-size: 1.5rem; margin-bottom: 8px; }
+.connect-card strong { display: block; font-size: .92rem; margin-bottom: 4px; }
+.connect-card span { font-size: .78rem; opacity: .65; }
+
+/* ───── Invite ───── */
+.invite-final { padding: 48px 0 56px; text-align: center; background: linear-gradient(180deg, var(--foam) 0%, var(--sand) 100%); }
+.invite-final h2 { font-size: clamp(1.5rem, 4vw, 2rem); font-weight: 500; margin-bottom: 8px; }
+.invite-final p { color: var(--drift); font-size: 1rem; max-width: 36ch; margin: 0 auto 24px; }
+.invite-actions { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
+.btn { display: inline-flex; align-items: center; gap: .5em; font-weight: 700; font-size: .95rem; padding: .85em 1.5em; border-radius: 999px; text-decoration: none; border: none; cursor: pointer; font-family: 'Karla', sans-serif; transition: transform .12s ease; }
+.btn:hover { transform: translateY(-2px); }
+.btn:focus-visible { outline: 3px solid var(--dawn); outline-offset: 3px; }
+.btn-dawn { background: var(--dawn); color: var(--ink); }
+.btn-ink { background: var(--ink); color: var(--foam); }
+.btn-ghost-dark { background: transparent; color: var(--ink); box-shadow: inset 0 0 0 2px rgba(14,34,53,.25); }
+
+/* ───── Social ───── */
+.social-bar { display: flex; justify-content: center; gap: 14px; padding: 20px 0 0; }
+.social-link { display: flex; align-items: center; gap: 6px; font-size: .85rem; font-weight: 600; color: var(--tide); text-decoration: none; }
+.social-link:hover { color: var(--dawn); }
+.social-link svg { width: 20px; height: 20px; }
+
+/* ───── Week nav ───── */
+.week-nav { display: flex; justify-content: space-between; padding: 24px 0 0; border-top: 1px solid var(--sand); margin-top: 8px; }
+.week-nav a { font-size: .88rem; font-weight: 600; color: var(--tide); text-decoration: none; }
+.week-nav a:hover { color: var(--dawn); }
+.week-nav .disabled { opacity: .35; pointer-events: none; }
+
+/* ───── Progress dots ───── */
+.tunnel-progress { position: fixed; right: 16px; top: 50%; transform: translateY(-50%); display: flex; flex-direction: column; gap: 10px; z-index: 40; }
+.tunnel-progress .prog-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--sand); border: 2px solid var(--drift); transition: all .2s; cursor: pointer; }
+.tunnel-progress .prog-dot.active { background: var(--dawn); border-color: var(--dawn); transform: scale(1.3); }
+@media(max-width: 600px) { .tunnel-progress { display: none; } }
+
+/* ───── Print link ───── */
+.print-link { display: inline-flex; align-items: center; gap: 6px; font-size: .85rem; color: var(--drift); text-decoration: none; padding: 8px 0; }
+.print-link:hover { color: var(--tide); }
+
+/* ───── Footer ───── */
+footer { background: var(--ink); color: var(--foam); padding: 36px 0 28px; text-align: center; }
+footer .foot-logo { font-family: 'Fraunces', serif; font-size: 1.1rem; font-weight: 500; margin-bottom: 6px; }
+footer .foot-logo span { color: var(--dawn); }
+footer .foot-detail { font-size: .85rem; opacity: .7; margin-bottom: 16px; }
+footer .foot-links { display: flex; justify-content: center; gap: 20px; list-style: none; font-size: .85rem; }
+footer .foot-links a { text-decoration: none; opacity: .75; }
+footer .foot-links a:hover { opacity: 1; color: var(--dawn); }
+footer .foot-bottom { margin-top: 22px; padding-top: 16px; border-top: 1px solid rgba(247,244,237,.1); font-size: .78rem; opacity: .5; }
+
+</style>
 <style>
   .index-hero { background:linear-gradient(178deg,#08141F 0%,#0E2235 50%,#2E7E78 105%);color:var(--foam);padding:64px 0 48px; }
   .index-hero h1 { font-size:clamp(2rem,5vw,3rem);font-weight:500;margin-bottom:8px; }
@@ -42,8 +222,8 @@
 
 <header class="index-hero">
   <div class="wrap">
-    <div class="eyebrow" style="color:var(--tide-light)">Beach Church · Summer 2026</div>
-    <h1 class="display">Summer of Stewardship</h1>
+    <div class="eyebrow" style="color:var(--tide-light)">St. Paul&#39;s Ocean Grove Church · 2026</div>
+    <h1 class="display">Sunday Worship</h1>
     <p>Every Sunday's message — watch, reflect, go deeper, share.</p>
   </div>
 </header>
@@ -55,19 +235,181 @@
 
 <section class="sundays-list">
   <div class="wrap">
-    
-    <div class="section-divider">Coming up</div>
-      <a class="sunday-card upcoming" href="#" style="pointer-events:none">
-        <div class="sc-week">Week 1</div>
+    <div class="section-divider">Latest</div>
+      <a class="sunday-card " href="/sundays/stewardship-of-encouragement" >
+        <div class="sc-week">Week 19</div>
         <div class="sc-main">
           <h3>The Stewardship of Encouragement</h3>
           <div class="sc-meta">June 21, 2026 · Richard Twidle</div>
           <div class="sc-scripture">1 Thessalonians 5:11; Hebrews 10:24–25</div>
         </div>
-        <span class="upcoming-badge">Coming soon</span>
+        
       </a>
-      <a class="sunday-card upcoming" href="#" style="pointer-events:none">
+      <a class="sunday-card " href="/sundays/ogcma-sunday-june-14" >
+        <div class="sc-week">Week 18</div>
+        <div class="sc-main">
+          <h3>OGCMA Sunday</h3>
+          <div class="sc-meta">June 14, 2026 · Nancy Ann Gillan</div>
+          <div class="sc-scripture"></div>
+        </div>
+        
+      </a>
+      <a class="sunday-card " href="/sundays/grace-you-can-practice" >
+        <div class="sc-week">Week 17</div>
+        <div class="sc-main">
+          <h3>Grace You Can Practice</h3>
+          <div class="sc-meta">June 7, 2026 · Pastor Joe Tiedemann</div>
+          <div class="sc-scripture">Acts 2:42–47</div>
+        </div>
+        
+      </a>
+      <a class="sunday-card " href="/sundays/stewarding-the-hidden-places" >
+        <div class="sc-week">Week 16</div>
+        <div class="sc-main">
+          <h3>Stewarding the Hidden Places</h3>
+          <div class="sc-meta">May 31, 2026 · Pastor Joe Tiedemann</div>
+          <div class="sc-scripture">Psalm 139:23–24; Luke 19:1–10</div>
+        </div>
+        
+      </a>
+      <a class="sunday-card " href="/sundays/owned-by-love" >
+        <div class="sc-week">Week 15</div>
+        <div class="sc-main">
+          <h3>Owned by Love</h3>
+          <div class="sc-meta">May 24, 2026 · Pastor Joe Tiedemann</div>
+          <div class="sc-scripture">Psalm 24:1; 1 Corinthians 6:19–20</div>
+        </div>
+        
+      </a>
+      <a class="sunday-card " href="/sundays/found-by-jesus" >
+        <div class="sc-week">Week 14</div>
+        <div class="sc-main">
+          <h3>Found by Jesus</h3>
+          <div class="sc-meta">May 17, 2026 · Pastor Joe Tiedemann</div>
+          <div class="sc-scripture">John 9:35–41</div>
+        </div>
+        
+      </a>
+      <a class="sunday-card " href="/sundays/the-fear-of-being-cut-off" >
+        <div class="sc-week">Week 13</div>
+        <div class="sc-main">
+          <h3>The Fear of Being Cut Off</h3>
+          <div class="sc-meta">May 10, 2026 · Pastor Joe Tiedemann</div>
+          <div class="sc-scripture">John 9:18–34</div>
+        </div>
+        
+      </a>
+      <a class="sunday-card " href="/sundays/when-god-breaks-your-boxes" >
+        <div class="sc-week">Week 12</div>
+        <div class="sc-main">
+          <h3>When God Breaks Your Boxes</h3>
+          <div class="sc-meta">May 3, 2026 · Pastor Joe Tiedemann</div>
+          <div class="sc-scripture">John 9:13–17</div>
+        </div>
+        
+      </a>
+      <a class="sunday-card " href="/sundays/blind-sight-isnt-that-the-beggar" >
+        <div class="sc-week">Week 11</div>
+        <div class="sc-main">
+          <h3>Blind Sight: Isn&#39;t That the Beggar?</h3>
+          <div class="sc-meta">April 26, 2026 · Pastor Joe Tiedemann</div>
+          <div class="sc-scripture">John 9:8–12</div>
+        </div>
+        
+      </a>
+      <a class="sunday-card " href="/sundays/dry-bones" >
+        <div class="sc-week">Week 10</div>
+        <div class="sc-main">
+          <h3>Dry Bones</h3>
+          <div class="sc-meta">April 19, 2026 · Megan Faulkner</div>
+          <div class="sc-scripture">Ezekiel 37:1–14</div>
+        </div>
+        
+      </a>
+      <a class="sunday-card " href="/sundays/blind-sight-investigation" >
+        <div class="sc-week">Week 9</div>
+        <div class="sc-main">
+          <h3>Blind Sight: The Investigation</h3>
+          <div class="sc-meta">April 12, 2026 · Pastor Joe Tiedemann</div>
+          <div class="sc-scripture">John 9:8–12</div>
+        </div>
+        
+      </a>
+      <a class="sunday-card " href="/sundays/resurrection-power" >
+        <div class="sc-week">Week 8</div>
+        <div class="sc-main">
+          <h3>Resurrection Power</h3>
+          <div class="sc-meta">April 5, 2026 · Pastor Joe Tiedemann</div>
+          <div class="sc-scripture">John 20:1–18</div>
+        </div>
+        
+      </a>
+      <a class="sunday-card " href="/sundays/blind-sight-king-who-walks" >
+        <div class="sc-week">Week 7</div>
+        <div class="sc-main">
+          <h3>Blind Sight: The King Who Walks</h3>
+          <div class="sc-meta">March 29, 2026 · Pastor Joe Tiedemann</div>
+          <div class="sc-scripture">John 9:4–7; Matthew 21:1–11</div>
+        </div>
+        
+      </a>
+      <a class="sunday-card " href="/sundays/blind-sight-who-did-this" >
+        <div class="sc-week">Week 6</div>
+        <div class="sc-main">
+          <h3>Blind Sight: Who Did This?</h3>
+          <div class="sc-meta">March 22, 2026 · Pastor Joe Tiedemann</div>
+          <div class="sc-scripture">John 9:1–3</div>
+        </div>
+        
+      </a>
+      <a class="sunday-card " href="/sundays/blind-sight-opening" >
+        <div class="sc-week">Week 5</div>
+        <div class="sc-main">
+          <h3>Blind Sight</h3>
+          <div class="sc-meta">March 15, 2026 · Pastor Joe Tiedemann</div>
+          <div class="sc-scripture">John 9:1–41</div>
+        </div>
+        
+      </a>
+      <a class="sunday-card " href="/sundays/living-water-for-the-thirsty" >
+        <div class="sc-week">Week 4</div>
+        <div class="sc-main">
+          <h3>Living Water for the Thirsty</h3>
+          <div class="sc-meta">March 8, 2026 · Pastor Joe Tiedemann</div>
+          <div class="sc-scripture">John 4:5–26</div>
+        </div>
+        
+      </a>
+      <a class="sunday-card " href="/sundays/when-the-fine-print-is-grace" >
+        <div class="sc-week">Week 3</div>
+        <div class="sc-main">
+          <h3>When the Fine Print Is Grace</h3>
+          <div class="sc-meta">March 1, 2026 · Pastor Joe Tiedemann</div>
+          <div class="sc-scripture">Genesis 17:1–8</div>
+        </div>
+        
+      </a>
+      <a class="sunday-card " href="/sundays/when-the-wilderness-talks-back" >
         <div class="sc-week">Week 2</div>
+        <div class="sc-main">
+          <h3>When the Wilderness Talks Back</h3>
+          <div class="sc-meta">February 22, 2026 · Pastor Joe Tiedemann</div>
+          <div class="sc-scripture">Matthew 4:1–11</div>
+        </div>
+        
+      </a>
+      <a class="sunday-card " href="/sundays/one-body-many-members" >
+        <div class="sc-week">Week 1</div>
+        <div class="sc-main">
+          <h3>One Body, Many Members</h3>
+          <div class="sc-meta">February 15, 2026 · Pastor Joe Tiedemann</div>
+          <div class="sc-scripture">Romans 12:1–8</div>
+        </div>
+        
+      </a>
+    <div class="section-divider">Coming up</div>
+      <a class="sunday-card upcoming" href="#" style="pointer-events:none">
+        <div class="sc-week">Week 20</div>
         <div class="sc-main">
           <h3>Faithful With Little</h3>
           <div class="sc-meta">June 28, 2026 · OGCMA Speaker</div>
@@ -76,7 +418,7 @@
         <span class="upcoming-badge">Coming soon</span>
       </a>
       <a class="sunday-card upcoming" href="#" style="pointer-events:none">
-        <div class="sc-week">Week 3</div>
+        <div class="sc-week">Week 21</div>
         <div class="sc-main">
           <h3>Rest as Resistance</h3>
           <div class="sc-meta">July 5, 2026 · Megan Faulkner</div>
@@ -85,7 +427,7 @@
         <span class="upcoming-badge">Coming soon</span>
       </a>
       <a class="sunday-card upcoming" href="#" style="pointer-events:none">
-        <div class="sc-week">Week 4</div>
+        <div class="sc-week">Week 22</div>
         <div class="sc-main">
           <h3>A Body That Belongs</h3>
           <div class="sc-meta">July 12, 2026 · OGCMA Speaker</div>
@@ -94,7 +436,7 @@
         <span class="upcoming-badge">Coming soon</span>
       </a>
       <a class="sunday-card upcoming" href="#" style="pointer-events:none">
-        <div class="sc-week">Week 5</div>
+        <div class="sc-week">Week 23</div>
         <div class="sc-main">
           <h3>Next-Gen Courage</h3>
           <div class="sc-meta">July 19, 2026 · Chris Kuster</div>
@@ -103,7 +445,7 @@
         <span class="upcoming-badge">Coming soon</span>
       </a>
       <a class="sunday-card upcoming" href="#" style="pointer-events:none">
-        <div class="sc-week">Week 6</div>
+        <div class="sc-week">Week 24</div>
         <div class="sc-main">
           <h3>Hospitality on Purpose</h3>
           <div class="sc-meta">July 26, 2026 · OGCMA Speaker</div>
@@ -112,7 +454,7 @@
         <span class="upcoming-badge">Coming soon</span>
       </a>
       <a class="sunday-card upcoming" href="#" style="pointer-events:none">
-        <div class="sc-week">Week 7</div>
+        <div class="sc-week">Week 25</div>
         <div class="sc-main">
           <h3>Wonder That Leads to Worship</h3>
           <div class="sc-meta">August 2, 2026 · Joe Tiedemann</div>
@@ -121,7 +463,7 @@
         <span class="upcoming-badge">Coming soon</span>
       </a>
       <a class="sunday-card upcoming" href="#" style="pointer-events:none">
-        <div class="sc-week">Week 8</div>
+        <div class="sc-week">Week 26</div>
         <div class="sc-main">
           <h3>Unity in Transition</h3>
           <div class="sc-meta">August 9, 2026 · OGCMA Speaker</div>
@@ -130,7 +472,7 @@
         <span class="upcoming-badge">Coming soon</span>
       </a>
       <a class="sunday-card upcoming" href="#" style="pointer-events:none">
-        <div class="sc-week">Week 9</div>
+        <div class="sc-week">Week 27</div>
         <div class="sc-main">
           <h3>Freedom From Shame</h3>
           <div class="sc-meta">August 16, 2026 · Joe Tiedemann</div>
@@ -139,7 +481,7 @@
         <span class="upcoming-badge">Coming soon</span>
       </a>
       <a class="sunday-card upcoming" href="#" style="pointer-events:none">
-        <div class="sc-week">Week 10</div>
+        <div class="sc-week">Week 28</div>
         <div class="sc-main">
           <h3>The Stewardship of Compassion</h3>
           <div class="sc-meta">August 23, 2026 · OGCMA Speaker</div>
@@ -148,7 +490,7 @@
         <span class="upcoming-badge">Coming soon</span>
       </a>
       <a class="sunday-card upcoming" href="#" style="pointer-events:none">
-        <div class="sc-week">Week 11</div>
+        <div class="sc-week">Week 29</div>
         <div class="sc-main">
           <h3>A Generous Life</h3>
           <div class="sc-meta">August 30, 2026 · Megan Faulkner</div>
@@ -157,7 +499,7 @@
         <span class="upcoming-badge">Coming soon</span>
       </a>
       <a class="sunday-card upcoming" href="#" style="pointer-events:none">
-        <div class="sc-week">Week 12</div>
+        <div class="sc-week">Week 30</div>
         <div class="sc-main">
           <h3>Spirit-Powered Everyday</h3>
           <div class="sc-meta">September 6, 2026 · Joe Tiedemann</div>
@@ -166,7 +508,7 @@
         <span class="upcoming-badge">Coming soon</span>
       </a>
       <a class="sunday-card upcoming" href="#" style="pointer-events:none">
-        <div class="sc-week">Week 13</div>
+        <div class="sc-week">Week 31</div>
         <div class="sc-main">
           <h3>Stewards of Reconciliation</h3>
           <div class="sc-meta">September 13, 2026 · Joe Tiedemann</div>
