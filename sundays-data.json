@@ -1,0 +1,984 @@
+{
+  "series": {
+    "name": "Summer of Stewardship",
+    "slug": "summer-of-stewardship",
+    "season": "Beach Church \u00b7 Summer 2026"
+  },
+  "defaults": {
+    "location": "Beach Church at the Boardwalk Pavilion",
+    "time": "Sundays \u00b7 9:00 AM",
+    "beachClubUrl": "https://oceangrove.church/beach-club",
+    "prayerUrl": "https://oceangrove.church/prayer",
+    "giveUrl": "https://tithe.ly/give?c=6834905",
+    "startHereUrl": "https://oceangrove.church/start-here",
+    "devotionalUrl": "https://oceangrove.church/five-mornings",
+    "youtubeChannel": "https://youtube.com/@oceangrovechurch",
+    "instagram": "https://instagram.com/oceangrovechurch",
+    "facebook": "https://facebook.com/OceanGroveChurch",
+    "podcastUrl": "https://open.spotify.com/show/PLACEHOLDER"
+  },
+  "sundays": [
+    {
+      "slug": "stewardship-of-encouragement",
+      "weekNumber": 1,
+      "date": "2026-06-21",
+      "title": "The Stewardship of Encouragement",
+      "scripture": "1 Thessalonians 5:11; Hebrews 10:24\u201325",
+      "speaker": "Richard Twidle",
+      "bigIdea": "Our words carry God-given power to build others up \u2014 encouragement is stewardship of the influence we hold.",
+      "heroTeaser": "What if the most powerful thing you steward isn't money or time \u2014 but the words you say to the people around you?",
+      "pullquote": {
+        "text": "Encouragement isn't flattery. It's seeing what God is doing in someone and saying it out loud.",
+        "attribution": "Richard Twidle"
+      },
+      "outline": [
+        {
+          "title": "Words carry weight",
+          "description": "Paul tells the Thessalonians to encourage one another and build each other up. He's not suggesting \u2014 he's commanding. Our words aren't neutral; they're either constructing or demolishing."
+        },
+        {
+          "title": "Encouragement is intentional",
+          "description": "The writer of Hebrews says to 'consider how to spur one another on.' Consider \u2014 it's a deliberate act, not a feeling. Real encouragement costs attention."
+        },
+        {
+          "title": "Stewardship of influence",
+          "description": "Every interaction is an opportunity to invest in someone. The question isn't whether you have influence \u2014 it's what you're doing with it."
+        }
+      ],
+      "reflectionQuestions": [
+        "When I'm stressed, do my words tend to build or bruise? What's underneath that?",
+        "Who is one person God might be placing on my heart to strengthen this week?",
+        "What would it look like to encourage someone without trying to fix them?",
+        "Think of a time when someone's words changed the trajectory of your day \u2014 or your life. What made those words land?"
+      ],
+      "conversationStarters": [
+        "What's something someone said to you that you still carry (in a good way)?",
+        "Where do you most need encouragement right now \u2014 health, family, faith, finances, work?",
+        "What makes encouragement feel genuine to you (and not cheesy)?"
+      ],
+      "spiritualPractice": {
+        "title": "Three Voices",
+        "description": "Pick three people this week (different generations if possible). Send each a brief, specific note: what you appreciate about them, what you see God doing in their life, and one simple blessing or prayer. A text works. A handwritten note works better. Don't overthink it \u2014 just say what's true."
+      },
+      "songs": [],
+      "video": {
+        "serviceId": "",
+        "clipId": "",
+        "chapters": []
+      },
+      "isPublished": false
+    },
+    {
+      "slug": "faithful-with-little",
+      "weekNumber": 2,
+      "date": "2026-06-28",
+      "title": "Faithful With Little",
+      "scripture": "Luke 16:10\u201313",
+      "speaker": "OGCMA Speaker",
+      "bigIdea": "Faithfulness in small things \u2014 trust, money, daily choices \u2014 is where stewardship becomes real.",
+      "heroTeaser": "What if the small, overlooked things in your life are exactly where God is asking for your trust?",
+      "pullquote": {
+        "text": "Faithfulness doesn't start when the stakes are high. It starts when nobody's watching.",
+        "attribution": "Pastor Joe"
+      },
+      "outline": [
+        {
+          "title": "Faithfulness is formed in the small",
+          "description": "Jesus doesn't measure readiness by ambition \u2014 he measures it by what you do with what's already in front of you. The overlooked Tuesday matters as much as the big Sunday."
+        },
+        {
+          "title": "Trust is a curriculum, not a test",
+          "description": "God isn't setting traps. He's building something in you through small, repeated acts of faithfulness \u2014 the way a muscle grows through reps, not a single lift."
+        },
+        {
+          "title": "Two masters, one heart",
+          "description": "Stewardship isn't about money. It's about who owns your attention. Jesus frames it as a binary \u2014 not because he's rigid, but because your heart genuinely can't run in two directions at once."
+        }
+      ],
+      "reflectionQuestions": [
+        "Where in your life right now are you being asked to be faithful with something small \u2014 and does it feel like it matters?",
+        "Jesus says trustworthiness with 'very little' leads to being trusted with more. When have you seen that pattern play out \u2014 or not?",
+        "What would it look like this week to treat one ordinary responsibility as if it were sacred?",
+        "Is there a place where you're waiting for a bigger opportunity before you give something your full attention?"
+      ],
+      "conversationStarters": [
+        "What's a 'small thing' you've found actually shapes your life more than you expected?",
+        "What messages about money did you grow up with (spoken or unspoken)?",
+        "Where do you feel invited to be more faithful \u2014 not perfect \u2014 right now?"
+      ],
+      "spiritualPractice": {
+        "title": "The Overlooked Inventory",
+        "description": "Pick one day this week. At the end of it, write down three small things you did that nobody noticed or thanked you for. Don't evaluate them \u2014 just name them. Then read Luke 16:10 again. Let Jesus's words reframe what those small things actually are. Repeat daily if you want \u2014 the list will surprise you by Friday."
+      },
+      "songs": [
+        {
+          "title": "Good Good Father",
+          "position": "Opening 1",
+          "key": "G"
+        },
+        {
+          "title": "At The Altar",
+          "position": "Opening 2",
+          "key": "B"
+        },
+        {
+          "title": "In The River",
+          "position": "Opening 3",
+          "key": "E"
+        },
+        {
+          "title": "King Of My Heart",
+          "position": "Offering",
+          "key": "G"
+        },
+        {
+          "title": "Build My Life",
+          "position": "Closing",
+          "key": "G"
+        }
+      ],
+      "video": {
+        "serviceId": "",
+        "clipId": "",
+        "chapters": []
+      },
+      "isPublished": false
+    },
+    {
+      "slug": "rest-as-resistance",
+      "weekNumber": 3,
+      "date": "2026-07-05",
+      "title": "Rest as Resistance",
+      "scripture": "Matthew 11:28\u201330; Genesis 2:2\u20133",
+      "speaker": "Megan Faulkner",
+      "bigIdea": "Rest isn't laziness \u2014 it's an act of trust that God is still working when you stop.",
+      "heroTeaser": "In a culture that rewards exhaustion, choosing rest is one of the most countercultural \u2014 and faithful \u2014 things you can do.",
+      "pullquote": {
+        "text": "God rested on the seventh day \u2014 not because he was tired, but because he was finished. What if your rest could carry that same confidence?",
+        "attribution": "Megan Faulkner"
+      },
+      "outline": [
+        {
+          "title": "Rest is built into creation",
+          "description": "God rested on the seventh day \u2014 not from fatigue, but as a statement: it is complete. Sabbath isn't a concession to human weakness; it's embedded in the architecture of the world."
+        },
+        {
+          "title": "Jesus invites the weary",
+          "description": "Come to me, all you who are weary. The invitation is to come as you are \u2014 tired, burdened, running on empty \u2014 and find that Jesus's yoke is actually lighter than the one you've been carrying alone."
+        },
+        {
+          "title": "Rest as trust",
+          "description": "Choosing to stop is choosing to believe God is still at work when you aren't. In a productivity-obsessed culture, rest is a radical act of faith."
+        }
+      ],
+      "reflectionQuestions": [
+        "What does real rest look like for you \u2014 and when was the last time you experienced it?",
+        "Do you feel guilty when you rest? Where does that guilt come from?",
+        "Jesus says his yoke is 'easy' and his burden is 'light.' Does your experience of faith feel that way? If not, what's adding weight?",
+        "What would it take to protect one hour this week as genuinely sacred rest \u2014 not productive, not scrolling, just being?"
+      ],
+      "conversationStarters": [
+        "Do you think rest is something you're good at? Why or why not?",
+        "What's the difference between rest and avoidance?",
+        "If God modeled rest in creation, what does that say about how we're supposed to live?"
+      ],
+      "spiritualPractice": {
+        "title": "The Sabbath Hour",
+        "description": "Choose one hour this week that belongs to rest alone. No phone, no tasks, no productivity. Walk, sit, read, pray, nap \u2014 whatever actually replenishes you. Before you begin, read Matthew 11:28\u201330 slowly. After the hour, notice what changed. This isn't about discipline \u2014 it's about trust."
+      },
+      "songs": [
+        {
+          "title": "Praise",
+          "position": "Opening 1",
+          "key": "Bb"
+        },
+        {
+          "title": "Promises",
+          "position": "Opening 2",
+          "key": "C"
+        },
+        {
+          "title": "Lion and the Lamb",
+          "position": "Opening 3",
+          "key": "Bb"
+        },
+        {
+          "title": "Never Too Far Gone",
+          "position": "Offering",
+          "key": "G"
+        },
+        {
+          "title": "I Have Decided To Follow Jesus",
+          "position": "Closing",
+          "key": "D"
+        }
+      ],
+      "video": {
+        "serviceId": "",
+        "clipId": "",
+        "chapters": []
+      },
+      "isPublished": false
+    },
+    {
+      "slug": "a-body-that-belongs",
+      "weekNumber": 4,
+      "date": "2026-07-12",
+      "title": "A Body That Belongs",
+      "scripture": "1 Corinthians 12:12\u201327",
+      "speaker": "OGCMA Speaker",
+      "bigIdea": "The church is a body, and every part belongs \u2014 including yours. Stewardship of community means showing up, not performing.",
+      "heroTeaser": "You're not an audience member. You're a body part. And the body isn't complete without you.",
+      "pullquote": {
+        "text": "The eye cannot say to the hand, 'I don't need you.' And neither can we.",
+        "attribution": "1 Corinthians 12:21"
+      },
+      "outline": [
+        {
+          "title": "Every part belongs",
+          "description": "Paul's body metaphor isn't organizational \u2014 it's theological. God designed the church so that no one is dispensable and no one is self-sufficient."
+        },
+        {
+          "title": "The parts that seem weaker are indispensable",
+          "description": "The hidden, quiet, behind-the-scenes contributions aren't lesser \u2014 they're load-bearing. The church runs on the people nobody applauds."
+        },
+        {
+          "title": "When one suffers, all suffer",
+          "description": "Belonging isn't a membership card. It's mutual vulnerability. Stewardship of community means staying connected even when it's costly."
+        }
+      ],
+      "reflectionQuestions": [
+        "Do you feel like you belong in a faith community right now? What helps \u2014 or hinders \u2014 that sense of belonging?",
+        "Which part of the 'body' do you think you might be? What role feels natural to you?",
+        "Is there someone in your community who seems invisible or undervalued? What would it look like to honor them?",
+        "Paul says suffering is shared. How comfortable are you letting others into your hard seasons?"
+      ],
+      "conversationStarters": [
+        "When have you felt most 'at home' in a community? What made it feel that way?",
+        "What's the difference between being a member and truly belonging?",
+        "How do you handle it when community gets hard or disappointing?"
+      ],
+      "spiritualPractice": {
+        "title": "The Belonging Audit",
+        "description": "This week, identify one person in your community you don't know well and learn their name and one thing about their life. Also identify one area where the community could use your help \u2014 not a major commitment, just one Sunday's worth. Show up for both. Notice what happens when you move from spectator to participant."
+      },
+      "songs": [
+        {
+          "title": "Way Maker",
+          "position": "Opening 1",
+          "key": "E"
+        },
+        {
+          "title": "Jireh",
+          "position": "Opening 2",
+          "key": "B"
+        },
+        {
+          "title": "Who You Say I Am",
+          "position": "Opening 3",
+          "key": "B"
+        },
+        {
+          "title": "The Blessing",
+          "position": "Offering",
+          "key": "Bb"
+        },
+        {
+          "title": "Jesus We Love You",
+          "position": "Closing",
+          "key": "C"
+        }
+      ],
+      "video": {
+        "serviceId": "",
+        "clipId": "",
+        "chapters": []
+      },
+      "isPublished": false
+    },
+    {
+      "slug": "next-gen-courage",
+      "weekNumber": 5,
+      "date": "2026-07-19",
+      "title": "Next-Gen Courage",
+      "scripture": "1 Timothy 4:12; Joshua 1:9",
+      "speaker": "Chris Kuster",
+      "bigIdea": "God has never waited for people to feel ready. Courage isn't the absence of fear \u2014 it's moving forward while afraid, because God is with you.",
+      "heroTeaser": "You don't have to be old enough, experienced enough, or confident enough. You just have to be willing.",
+      "pullquote": {
+        "text": "Don't let anyone look down on you because you are young. Set an example in speech, in conduct, in love, in faith, in purity.",
+        "attribution": "1 Timothy 4:12"
+      },
+      "outline": [
+        {
+          "title": "Youth is not disqualification",
+          "description": "Paul tells Timothy not to let anyone dismiss him for his age. God has always called the young, the unprepared, the unlikely. Age is never the issue \u2014 availability is."
+        },
+        {
+          "title": "Courage is commanded, not optional",
+          "description": "God tells Joshua 'be strong and courageous' three times. It's not a suggestion or a personality trait \u2014 it's marching orders, backed by a promise: 'I will be with you.'"
+        },
+        {
+          "title": "Stewarding the next generation",
+          "description": "Investing in young leaders isn't charity \u2014 it's stewardship of the church's future. The question for every generation is: are you making room, or are you holding the door shut?"
+        }
+      ],
+      "reflectionQuestions": [
+        "When have you felt 'too young' or 'not ready' for something God seemed to be calling you to?",
+        "Who invested in you when you were younger? What did that look like?",
+        "Joshua was told to be courageous because God would be with him. Where do you need to hear that promise right now?",
+        "What's one area of your faith where you've been waiting to feel ready instead of just starting?"
+      ],
+      "conversationStarters": [
+        "Who's a young person in your life who inspires you? What do you see in them?",
+        "What's the hardest part about stepping into something before you feel qualified?",
+        "How can the church do a better job of empowering the next generation without patronizing them?"
+      ],
+      "spiritualPractice": {
+        "title": "The Courage Conversation",
+        "description": "This week, have one real conversation with someone younger than you about faith \u2014 not a lecture, a conversation. Ask what they're thinking about God, what questions they're sitting with, what they wish the church understood. Listen more than you talk. If you are the younger one, initiate a conversation with someone older. Ask them about a time they were afraid and moved forward anyway."
+      },
+      "songs": [
+        {
+          "title": "Open The Eyes Of My Heart",
+          "position": "Opening 1",
+          "key": "E"
+        },
+        {
+          "title": "Revelation Song",
+          "position": "Opening 2",
+          "key": "D"
+        },
+        {
+          "title": "All Hail King Jesus",
+          "position": "Opening 3",
+          "key": "Bb"
+        },
+        {
+          "title": "New Wine",
+          "position": "Offering",
+          "key": "B"
+        },
+        {
+          "title": "What A Beautiful Name",
+          "position": "Closing",
+          "key": "D"
+        }
+      ],
+      "video": {
+        "serviceId": "",
+        "clipId": "",
+        "chapters": []
+      },
+      "isPublished": false
+    },
+    {
+      "slug": "hospitality-on-purpose",
+      "weekNumber": 6,
+      "date": "2026-07-26",
+      "title": "Hospitality on Purpose",
+      "scripture": "Luke 14:12\u201324; Romans 15:7",
+      "speaker": "OGCMA Speaker",
+      "bigIdea": "Biblical hospitality isn't hosting people like you \u2014 it's making room for people who can't return the favor.",
+      "heroTeaser": "Hospitality isn't about having the right house or the right dishes. It's about having room at the table for someone who wasn't expecting an invitation.",
+      "pullquote": {
+        "text": "Accept one another, then, just as Christ accepted you \u2014 in order to bring praise to God.",
+        "attribution": "Romans 15:7"
+      },
+      "outline": [
+        {
+          "title": "Invite the uninvited",
+          "description": "Jesus tells the host: stop inviting people who can repay you. Invite the poor, the disabled, the overlooked. Real hospitality is measured by who you'd never think to include."
+        },
+        {
+          "title": "Excuses reveal priorities",
+          "description": "In the parable, every invited guest has a reason not to come \u2014 land, oxen, a wedding. None are bad reasons. They're just more important to them than the feast. What are your excuses?"
+        },
+        {
+          "title": "Acceptance as hospitality",
+          "description": "Paul says accept one another as Christ accepted you. That's the benchmark \u2014 not tolerance, not politeness, but the radical welcome Jesus extends to everyone who shows up."
+        }
+      ],
+      "reflectionQuestions": [
+        "When was the last time you invited someone into your life who couldn't 'return the favor'?",
+        "Jesus's parable is about people too busy for the feast. What's keeping you too busy for the things that matter most?",
+        "Who in your neighborhood, workplace, or family circle might be waiting for an invitation they'll never generate on their own?",
+        "What does it look like to practice hospitality in a digital age \u2014 not just in your home?"
+      ],
+      "conversationStarters": [
+        "What's the most welcoming space you've ever walked into? What made it feel that way?",
+        "Is there a difference between being friendly and being hospitable?",
+        "Who is 'the poor, the crippled, the lame, the blind' in your context \u2014 who are the people the church tends to overlook?"
+      ],
+      "spiritualPractice": {
+        "title": "The Open Table",
+        "description": "This week, share a meal with someone you wouldn't normally eat with \u2014 a neighbor you don't know, a coworker you've never had coffee with, someone from a different generation or background. It doesn't have to be fancy. Pizza counts. The point is proximity and presence. Before the meal, pray: 'God, help me see this person the way you see them.'"
+      },
+      "songs": [
+        {
+          "title": "Reckless Love",
+          "position": "Opening 1",
+          "key": "C"
+        },
+        {
+          "title": "Christ Be Magnified",
+          "position": "Opening 2",
+          "key": "B"
+        },
+        {
+          "title": "Raise A Hallelujah",
+          "position": "Opening 3",
+          "key": "B"
+        },
+        {
+          "title": "Great Things",
+          "position": "Offering",
+          "key": "A"
+        },
+        {
+          "title": "Living Hope",
+          "position": "Closing",
+          "key": "C"
+        }
+      ],
+      "video": {
+        "serviceId": "",
+        "clipId": "",
+        "chapters": []
+      },
+      "isPublished": false
+    },
+    {
+      "slug": "wonder-that-leads-to-worship",
+      "weekNumber": 7,
+      "date": "2026-08-02",
+      "title": "Wonder That Leads to Worship",
+      "scripture": "Psalm 19:1\u20136; John 1:14",
+      "speaker": "Joe Tiedemann",
+      "bigIdea": "Creation speaks what words can't. When wonder becomes worship, stewardship of God's world flows naturally.",
+      "heroTeaser": "The heavens declare the glory of God. But when was the last time you actually stopped to listen?",
+      "pullquote": {
+        "text": "The heavens don't argue for God's existence. They just keep declaring his glory \u2014 whether anyone is listening or not.",
+        "attribution": "Pastor Joe"
+      },
+      "outline": [
+        {
+          "title": "Creation speaks first",
+          "description": "David says the heavens declare \u2014 present tense, every day, without pause. God's first language isn't Hebrew or Greek. It's sunrise, tide, birdsong, and the sheer weight of a starry sky."
+        },
+        {
+          "title": "The Word became flesh",
+          "description": "John 1:14 says the Word became flesh and dwelt among us. God didn't stay abstract \u2014 he moved into the neighborhood. The God who made the oceans stood ankle-deep in one."
+        },
+        {
+          "title": "Wonder becomes stewardship",
+          "description": "When you're awed by something, you take care of it. Worship leads to stewardship \u2014 of creation, of beauty, of the places and people God has entrusted to us."
+        }
+      ],
+      "reflectionQuestions": [
+        "When was the last time something in creation stopped you in your tracks? What was it?",
+        "Do you tend to rush past beauty, or do you let it slow you down? What would change if you let it?",
+        "How does the idea that 'the Word became flesh' \u2014 that God entered the physical world \u2014 change how you think about your own body, your neighborhood, the ocean?",
+        "What's one thing in God's creation that you could steward better this week?"
+      ],
+      "conversationStarters": [
+        "What's the most awe-inspiring thing you've ever seen in nature?",
+        "Do you find it easier to connect with God outdoors or indoors? Why?",
+        "If creation 'declares the glory of God,' what is it saying right now \u2014 this morning, in this place?"
+      ],
+      "spiritualPractice": {
+        "title": "The Five-Minute Gaze",
+        "description": "Once this week, find something in creation \u2014 the ocean, a tree, the sky at dusk \u2014 and give it five full minutes of unhurried attention. No phone. No agenda. Just look. Let the beauty speak first. Then ask God: what are you saying through this? Write down one word or phrase that comes to mind. Carry it through the rest of the day."
+      },
+      "songs": [
+        {
+          "title": "How Great Is Our God",
+          "position": "Opening 1",
+          "key": "Bb"
+        },
+        {
+          "title": "Do It Again",
+          "position": "Opening 2",
+          "key": "B"
+        },
+        {
+          "title": "Great Are You Lord",
+          "position": "Opening 3",
+          "key": "G"
+        },
+        {
+          "title": "Made A Way",
+          "position": "Offering",
+          "key": "Ab"
+        },
+        {
+          "title": "Something About The Name Jesus",
+          "position": "Closing",
+          "key": "Bb"
+        }
+      ],
+      "video": {
+        "serviceId": "",
+        "clipId": "",
+        "chapters": []
+      },
+      "isPublished": false
+    },
+    {
+      "slug": "unity-in-transition",
+      "weekNumber": 8,
+      "date": "2026-08-09",
+      "title": "Unity in Transition",
+      "scripture": "Ephesians 4:1\u20136",
+      "speaker": "OGCMA Speaker",
+      "bigIdea": "Unity isn't uniformity. It's the hard, grace-filled work of staying together when everything around you is changing.",
+      "heroTeaser": "Change is coming \u2014 it always is. The question isn't whether you'll face transition, but whether you'll face it together.",
+      "pullquote": {
+        "text": "There is one body and one Spirit \u2014 just as you were called to one hope when you were called.",
+        "attribution": "Ephesians 4:4"
+      },
+      "outline": [
+        {
+          "title": "Walk worthy of the calling",
+          "description": "Paul begins with posture: humility, gentleness, patience, bearing with one another in love. Unity isn't a program \u2014 it's a way of being together."
+        },
+        {
+          "title": "Eager to maintain unity",
+          "description": "The word is eager \u2014 not casual, not passive. Unity takes effort. It doesn't survive on autopilot, especially during seasons of change."
+        },
+        {
+          "title": "One body, many transitions",
+          "description": "Churches change. Leadership changes. Communities change. But the 'one Lord, one faith, one baptism' doesn't. Hold the center, release the periphery."
+        }
+      ],
+      "reflectionQuestions": [
+        "How do you typically respond to change \u2014 do you lean in, resist, or withdraw?",
+        "Paul lists humility, gentleness, patience, and bearing with one another. Which of these is hardest for you right now?",
+        "Is there a relationship or community where you've let a disagreement become a division? What would it take to rebuild?",
+        "What does 'eager to maintain the unity of the Spirit' look like practically in your life this week?"
+      ],
+      "conversationStarters": [
+        "What's the biggest transition you've navigated as part of a community (church, family, workplace)?",
+        "Where's the line between healthy disagreement and divisive conflict?",
+        "How can a church stay unified without pretending everyone agrees on everything?"
+      ],
+      "spiritualPractice": {
+        "title": "The Unity Prayer",
+        "description": "For three days this week, pray by name for someone you find difficult \u2014 in your church, family, or community. Don't pray that they change. Pray that God would give you eyes to see them the way God sees them. On the third day, reach out to them with a small act of kindness or connection. Notice what shifts in you."
+      },
+      "songs": [
+        {
+          "title": "Worthy",
+          "position": "Opening 1",
+          "key": "E"
+        },
+        {
+          "title": "At The Cross",
+          "position": "Opening 2",
+          "key": "Ab"
+        },
+        {
+          "title": "Way Maker",
+          "position": "Opening 3",
+          "key": "E"
+        },
+        {
+          "title": "Goodness Of God",
+          "position": "Offering",
+          "key": "Bb"
+        },
+        {
+          "title": "No Longer Slaves",
+          "position": "Closing",
+          "key": "E"
+        }
+      ],
+      "video": {
+        "serviceId": "",
+        "clipId": "",
+        "chapters": []
+      },
+      "isPublished": false
+    },
+    {
+      "slug": "freedom-from-shame",
+      "weekNumber": 9,
+      "date": "2026-08-16",
+      "title": "Freedom From Shame",
+      "scripture": "Romans 8:1\u20134; John 8:1\u201311",
+      "speaker": "Joe Tiedemann",
+      "bigIdea": "There is no condemnation for those who are in Christ Jesus. Shame is not from God \u2014 and you don't have to carry it anymore.",
+      "heroTeaser": "Shame says you are the mistake. Grace says you are the beloved. Which voice are you listening to?",
+      "pullquote": {
+        "text": "Neither do I condemn you. Go, and from now on do not sin again. Jesus doesn't ignore what happened \u2014 he just refuses to let it be the last word.",
+        "attribution": "Pastor Joe"
+      },
+      "outline": [
+        {
+          "title": "No condemnation",
+          "description": "Romans 8:1 is one sentence, and it changes everything: 'There is therefore now no condemnation for those who are in Christ Jesus.' No condemnation. Not reduced condemnation. None."
+        },
+        {
+          "title": "The woman and the accusers",
+          "description": "In John 8, the religious leaders want a verdict. Jesus wants a person. He doesn't argue the law \u2014 he invites the accusers to examine themselves first. One by one, they leave."
+        },
+        {
+          "title": "Stewardship of freedom",
+          "description": "Freedom from shame is a gift \u2014 but it's also a stewardship. You're free so you can live differently, not so you can pretend nothing happened. Grace propels you forward; shame holds you in place."
+        }
+      ],
+      "reflectionQuestions": [
+        "Is there a shame you've been carrying that you've mistaken for God's voice? What would it look like to set it down?",
+        "Paul says 'no condemnation.' Do you actually believe that applies to you \u2014 your specific history, your specific failures?",
+        "Who in your life needs to hear that they're not condemned? Is there someone you've been unintentionally holding under judgment?",
+        "What does 'Go and sin no more' sound like \u2014 is it a threat, or an invitation into a new kind of life?"
+      ],
+      "conversationStarters": [
+        "What's the difference between guilt and shame? Which one do you tend to feel more?",
+        "Is it hard for you to accept forgiveness \u2014 from God or from others? Why?",
+        "How can the church be a place where people can be honest about their failures without fear of judgment?"
+      ],
+      "spiritualPractice": {
+        "title": "The Release Letter",
+        "description": "Write a letter to yourself \u2014 from God's perspective. Start with 'There is no condemnation for you.' Name the specific shame you've been carrying, and write what grace says about it instead. You don't have to share it with anyone. But read it aloud to yourself at least once. Sometimes freedom starts with hearing the truth in your own voice."
+      },
+      "songs": [
+        {
+          "title": "Graves Into Gardens",
+          "position": "Opening 1",
+          "key": "Bb"
+        },
+        {
+          "title": "Come To The Altar",
+          "position": "Opening 2",
+          "key": "Ab"
+        },
+        {
+          "title": "Scandal Of Grace",
+          "position": "Opening 3",
+          "key": "E"
+        },
+        {
+          "title": "Fear Is A Liar",
+          "position": "Offering",
+          "key": "G"
+        },
+        {
+          "title": "Battle Belongs",
+          "position": "Closing",
+          "key": "E"
+        }
+      ],
+      "video": {
+        "serviceId": "",
+        "clipId": "",
+        "chapters": []
+      },
+      "isPublished": false
+    },
+    {
+      "slug": "stewardship-of-compassion",
+      "weekNumber": 10,
+      "date": "2026-08-23",
+      "title": "The Stewardship of Compassion",
+      "scripture": "Luke 10:25\u201337",
+      "speaker": "OGCMA Speaker",
+      "bigIdea": "Compassion isn't a feeling \u2014 it's a decision to stop, see, and move toward the person in front of you.",
+      "heroTeaser": "The question isn't 'who is my neighbor?' It's 'to whom will I be a neighbor?'",
+      "pullquote": {
+        "text": "The priest and the Levite saw the same man. The Samaritan saw the same man. Only one of them stopped. The difference wasn't information \u2014 it was willingness.",
+        "attribution": "Pastor Joe"
+      },
+      "outline": [
+        {
+          "title": "The wrong question",
+          "description": "The lawyer asks 'who is my neighbor?' hoping for a boundary. Jesus answers with a story that removes all boundaries. The question isn't who qualifies \u2014 it's whether you'll stop."
+        },
+        {
+          "title": "Three passersby, one decision",
+          "description": "The priest and Levite had reasons. The Samaritan had reasons not to. Compassion isn't the absence of reasons to keep walking \u2014 it's stopping anyway."
+        },
+        {
+          "title": "Go and do likewise",
+          "description": "Jesus doesn't say 'feel likewise.' He says 'go and do.' Compassion is a verb. Stewardship of compassion means treating your capacity to help as something entrusted to you by God."
+        }
+      ],
+      "reflectionQuestions": [
+        "When was the last time you 'crossed to the other side of the road' \u2014 avoided someone or something that needed your attention?",
+        "The Samaritan was the outsider, the unlikely hero. Who are the 'Samaritans' in your community \u2014 the people you might not expect compassion from?",
+        "Compassion cost the Samaritan time, money, and reputation. What is compassion costing you right now? What would it cost if you actually stopped?",
+        "Is there a need in front of you this week that you've been too busy to see?"
+      ],
+      "conversationStarters": [
+        "Tell about a time someone showed you unexpected compassion. What did it feel like?",
+        "Why do you think the priest and the Levite walked past? Can you relate to their reasons?",
+        "How do you decide when to help and when to keep walking? Is that calculus right?"
+      ],
+      "spiritualPractice": {
+        "title": "The Interruption Practice",
+        "description": "For three days this week, commit to not ignoring the interruption. When someone needs help \u2014 the coworker who needs to talk, the person struggling with bags, the neighbor who looks like they've had a day \u2014 stop. Give them five minutes. Don't solve anything. Just be present. At the end of each day, ask: 'God, who did you put in my path today that I almost missed?'"
+      },
+      "songs": [
+        {
+          "title": "Rest On Us",
+          "position": "Opening 1",
+          "key": "A"
+        },
+        {
+          "title": "Honey In The Rock",
+          "position": "Opening 2",
+          "key": "B"
+        },
+        {
+          "title": "Jesus Does",
+          "position": "Opening 3",
+          "key": "Ab"
+        },
+        {
+          "title": "Here Comes The Church",
+          "position": "Offering",
+          "key": "C"
+        },
+        {
+          "title": "Already Done",
+          "position": "Closing",
+          "key": "E"
+        }
+      ],
+      "video": {
+        "serviceId": "",
+        "clipId": "",
+        "chapters": []
+      },
+      "isPublished": false
+    },
+    {
+      "slug": "a-generous-life",
+      "weekNumber": 11,
+      "date": "2026-08-30",
+      "title": "A Generous Life",
+      "scripture": "2 Corinthians 9:6\u201311",
+      "speaker": "Megan Faulkner",
+      "bigIdea": "Generosity isn't giving from excess \u2014 it's living as if God's provision is real and ongoing.",
+      "heroTeaser": "God loves a cheerful giver \u2014 not because he needs your money, but because generosity is what freedom looks like.",
+      "pullquote": {
+        "text": "Whoever sows sparingly will also reap sparingly, and whoever sows generously will also reap generously. The harvest follows the seed.",
+        "attribution": "2 Corinthians 9:6"
+      },
+      "outline": [
+        {
+          "title": "Sowing and reaping",
+          "description": "Paul uses agricultural language because his audience understood: you don't harvest what you didn't plant. Generosity is seed \u2014 scattered in faith, trusting God for the growth."
+        },
+        {
+          "title": "Cheerful, not compelled",
+          "description": "God doesn't want reluctant givers. He wants people so convinced of his provision that giving feels like overflow, not obligation."
+        },
+        {
+          "title": "Enriched to be generous",
+          "description": "Paul's logic is counterintuitive: you will be enriched in every way so that you can be generous on every occasion. God's abundance isn't for hoarding \u2014 it's for circulation."
+        }
+      ],
+      "reflectionQuestions": [
+        "When you think about generosity, does it feel like joy or obligation? What shaped that feeling?",
+        "Paul says God enriches you so you can be generous. Are there resources in your life (time, money, skills, relationships) that you're holding rather than circulating?",
+        "What would 'sowing generously' look like in your life this week \u2014 not just financially, but with your time, attention, or energy?",
+        "Is there a fear that keeps you from being more generous? What is it really about?"
+      ],
+      "conversationStarters": [
+        "Who's the most generous person you know? What makes them that way?",
+        "Is generosity a character trait or a spiritual discipline \u2014 or both?",
+        "How do you decide how much to give \u2014 to the church, to causes, to people in need?"
+      ],
+      "spiritualPractice": {
+        "title": "The Generosity Experiment",
+        "description": "This week, practice three kinds of generosity on three different days: (1) financial \u2014 give something unexpected to someone or something, any amount; (2) time \u2014 give an hour to someone without checking the clock; (3) words \u2014 write or say something generous about someone to a third person (not gossip, but 'let me tell you something great about...'). At the end of the week, notice which one was hardest and ask God why."
+      },
+      "songs": [
+        {
+          "title": "Death Was Arrested",
+          "position": "Opening 1",
+          "key": "G"
+        },
+        {
+          "title": "King Of My Heart",
+          "position": "Opening 2",
+          "key": "G"
+        },
+        {
+          "title": "Endless Praise",
+          "position": "Opening 3",
+          "key": "A"
+        },
+        {
+          "title": "Here As In Heaven",
+          "position": "Offering",
+          "key": "E"
+        },
+        {
+          "title": "Build My Life",
+          "position": "Closing",
+          "key": "G"
+        }
+      ],
+      "video": {
+        "serviceId": "",
+        "clipId": "",
+        "chapters": []
+      },
+      "isPublished": false
+    },
+    {
+      "slug": "spirit-powered-everyday",
+      "weekNumber": 12,
+      "date": "2026-09-06",
+      "title": "Spirit-Powered Everyday",
+      "scripture": "Galatians 5:16\u201325; Acts 1:8",
+      "speaker": "Joe Tiedemann",
+      "bigIdea": "The Spirit isn't reserved for dramatic moments. He's the power for the ordinary, everyday, unglamorous work of following Jesus.",
+      "heroTeaser": "You will receive power. Not just for the big moments \u2014 for the Tuesday ones.",
+      "pullquote": {
+        "text": "The fruit of the Spirit isn't produced by trying harder. It's produced by staying connected to the vine.",
+        "attribution": "Pastor Joe"
+      },
+      "outline": [
+        {
+          "title": "Walk by the Spirit",
+          "description": "Paul doesn't say 'try harder.' He says walk \u2014 one step at a time, in step with the Spirit. The Christian life isn't powered by willpower. It's powered by the Spirit who lives in you."
+        },
+        {
+          "title": "Fruit, not performance",
+          "description": "Love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control \u2014 these aren't achievements. They're fruit. Fruit grows when the conditions are right. Your job is to stay connected."
+        },
+        {
+          "title": "Power for witness",
+          "description": "Acts 1:8 \u2014 you will receive power. Not power for spectacle, but power for witness. The Spirit equips you to be a faithful presence in your actual life, your actual neighborhood, your actual relationships."
+        }
+      ],
+      "reflectionQuestions": [
+        "Which fruit of the Spirit do you see growing in your life? Which one feels most absent?",
+        "Do you tend to approach faith as 'trying harder' or 'staying connected'? What's the difference in practice?",
+        "Where in your everyday life \u2014 work, home, commute, friendships \u2014 do you most need the Spirit's power right now?",
+        "Acts 1:8 says power for witness. What does your life 'witness' to the people around you?"
+      ],
+      "conversationStarters": [
+        "Have you ever had an experience where you felt clearly led by the Holy Spirit? What was that like?",
+        "What's the difference between 'the fruit of the Spirit' and just being a nice person?",
+        "If the Spirit is for everyday life, why does he feel so distant sometimes?"
+      ],
+      "spiritualPractice": {
+        "title": "The Daily Surrender",
+        "description": "Each morning this week, before you check your phone, pray one sentence: 'Holy Spirit, lead me today.' That's it. Don't add conditions or requests. Just surrender the day. At night, look back and notice: where did you feel guided, empowered, or restrained? Journal one line each day. By the end of the week, you'll have a map of where the Spirit was working."
+      },
+      "songs": [
+        {
+          "title": "Praise",
+          "position": "Opening 1",
+          "key": "Bb"
+        },
+        {
+          "title": "Worthy",
+          "position": "Opening 2",
+          "key": "E"
+        },
+        {
+          "title": "All Hail King Jesus",
+          "position": "Opening 3",
+          "key": "Bb"
+        },
+        {
+          "title": "Jesus We Love You",
+          "position": "Offering",
+          "key": "C"
+        },
+        {
+          "title": "New Wine",
+          "position": "Closing",
+          "key": "B"
+        }
+      ],
+      "video": {
+        "serviceId": "",
+        "clipId": "",
+        "chapters": []
+      },
+      "isPublished": false
+    },
+    {
+      "slug": "stewards-of-reconciliation",
+      "weekNumber": 13,
+      "date": "2026-09-13",
+      "title": "Stewards of Reconciliation",
+      "scripture": "2 Corinthians 5:17\u201321; Ephesians 2:14\u201318",
+      "speaker": "Joe Tiedemann",
+      "bigIdea": "God has given us the ministry of reconciliation \u2014 we are ambassadors of a peace we didn't create but are called to carry.",
+      "heroTeaser": "If anyone is in Christ, the new creation has come. And you've been given the ministry of making that real in the world.",
+      "pullquote": {
+        "text": "We are ambassadors for Christ \u2014 as though God were making his appeal through us. The message of reconciliation doesn't just pass through us. It becomes us.",
+        "attribution": "Pastor Joe"
+      },
+      "outline": [
+        {
+          "title": "New creation, new identity",
+          "description": "2 Corinthians 5:17 \u2014 the old has gone, the new has come. This isn't self-improvement. It's new creation. Your identity in Christ isn't a project to complete; it's a reality to live from."
+        },
+        {
+          "title": "The ministry of reconciliation",
+          "description": "God was reconciling the world to himself in Christ, and he has committed to us the message of reconciliation. This is the great handoff \u2014 God's work, done through God's people, in God's power."
+        },
+        {
+          "title": "Ambassadors of peace",
+          "description": "Ephesians 2 says Christ himself is our peace. He has broken down every dividing wall. As stewards of reconciliation, we carry that peace into every room, every relationship, every conflict we enter."
+        }
+      ],
+      "reflectionQuestions": [
+        "Where in your life is reconciliation needed \u2014 with God, with another person, within yourself?",
+        "Paul says we are 'ambassadors.' An ambassador represents someone else's interests, not their own. What would it look like to represent Christ's interests in a conflict you're navigating?",
+        "Is there a 'dividing wall' in your life or community that you've accepted as permanent? What if it isn't?",
+        "What would it mean to steward the ministry of reconciliation in your home, your workplace, your neighborhood?"
+      ],
+      "conversationStarters": [
+        "Have you ever experienced genuine reconciliation \u2014 with God, with another person, or within yourself? What made it possible?",
+        "Why is reconciliation so hard? What gets in the way?",
+        "If the church is supposed to be a community of reconciliation, how are we doing? Where could we do better?"
+      ],
+      "spiritualPractice": {
+        "title": "The Reconciliation Prayer",
+        "description": "Pray slowly, once a day for three days: 'Jesus, reconcile me to you. Show me where I'm holding hostility. Give me one next step of peace.' Then do one small action \u2014 a text, a note, a phone call, a prayer with someone \u2014 aligned with that next step. Reconciliation doesn't require grand gestures. It starts with willingness and one small move toward peace."
+      },
+      "songs": [
+        {
+          "title": "Rest On Us",
+          "position": "Opening 1",
+          "key": "A"
+        },
+        {
+          "title": "Goodness Of God",
+          "position": "Opening 2",
+          "key": "Bb"
+        },
+        {
+          "title": "Jireh",
+          "position": "Opening 3",
+          "key": "B"
+        },
+        {
+          "title": "The Blessing",
+          "position": "Offering",
+          "key": "Bb"
+        },
+        {
+          "title": "Hallelujah",
+          "position": "Closing",
+          "key": "E"
+        }
+      ],
+      "video": {
+        "serviceId": "",
+        "clipId": "",
+        "chapters": []
+      },
+      "isPublished": false
+    }
+  ]
+}
